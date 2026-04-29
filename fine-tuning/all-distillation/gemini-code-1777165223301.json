@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1561927",
+    "summary": "A flight instructor intentionally allowed a student to deviate below the glidepath on an approach to teach a lesson, temporarily forgetting they were on an active IFR clearance. This resulted in a low altitude alert from ATC and forced the crew to cancel IFR and execute a visual approach.",
+    "primary_problem": "companypolicy",
+    "rationale": "Based on the updated reference guide logic, this is classified as Company Policy because the hazard originated from an instructional philosophy or school policy regarding delayed instructor intervention. The intentional use of this teaching technique superseded standard safety margins, creating an airspace conflict. It is not Human Factors because the instructor's initial lack of intervention was a deliberate pedagogical choice rather than a momentary lapse in attention. It is not Procedure because the issue centers on systemic flight training doctrines rather than a simple operational checklist omission."
+  },
+  {
+    "acn": "1746310",
+    "summary": "Flight attendants reported severe fatigue after working an 18-hour duty day with only one 90-minute break, exacerbated by COVID-19 schedule changes. The lack of standard company protocols for ground stop services forced the crew to constantly serve passengers, compromising their ability to handle potential emergencies.",
+    "primary_problem": "companypolicy",
+    "rationale": "This is classified as Company Policy because it explicitly involves crew fatigue, excessive duty times, and inadequate scheduling practices mandated by the airline. This perfectly aligns with the \"Crew fatigue and scheduling\" repeating issue. It is not Human Factors because the fatigue is a direct result of systemic corporate scheduling rather than individual lifestyle choices. It is not Procedure because the hazard stems from a lack of overarching corporate service protocols during ground stops, rather than the crew failing to follow an existing tactical rule."
+  },
+  {
+    "acn": "1695567",
+    "summary": "Airport gate managers assigned a Boeing 757 to a gate that was not properly outfitted or marked for that aircraft type in order to avoid operational delays. The ramp supervisor noted that this prioritization of schedule over safety created severe collision hazards for the aircraft's tail and the deplaning passengers.",
+    "primary_problem": "companypolicy",
+    "rationale": "The Company Policy label applies here because management deliberately prioritized operational needs and schedule over established safety limitations by assigning an oversized aircraft to an incompatible gate. This matches the \"Management pressure to fly/accept unairworthy aircraft\" and general prioritization of operations over safety themes. It is not Airport because the root cause was a conscious management scheduling directive rather than a physically broken or missing gate marking. It is not Procedure because the error was driven by management's systemic operational pressure, rather than a ground crew's unprompted mistake."
+  },
+  {
+    "acn": "2105330",
+    "summary": "During a period of high workload and weather, ATC controllers experienced GPS jamming that severely impacted aircraft navigation, prompting multiple requests for a \"stop buzzer\" to halt the military interference. ATC management delayed the request by at least 30 minutes and routed critical calls through a third party, forcing controllers to work an unsafe volume of traffic.",
+    "primary_problem": "companypolicy",
+    "rationale": "This report is classified as Company Policy because it highlights a severe failure of ATC management to support controllers and prioritize safety over operational flow. This maps directly to the \"ATC management decisions overriding safety\" and \"TMU management failures\" repeating issues. It is not ATC Equipment / Nav Facility / Buildings because, although GPS jamming occurred, the primary complaint is management's refusal to mitigate the hazard. It is not Staffing because the core issue is an organizational leadership failure to authorize a \"stop buzzer,\" not a lack of available controllers on the floor."
+  },
+  {
+    "acn": "1465287",
+    "summary": "A TRACON controller expressed frustration over conflicting facility policies regarding the handling of parachute jump airspace, noting that one neighboring facility demands individual radar point-outs for every jumper while another simply blocks the airspace. This duality in management directives led to uncoordinated VFR jump aircraft entering busy IFR departure tracks.",
+    "primary_problem": "companypolicy",
+    "rationale": "This is classified as Company Policy because the safety hazard stems from inconsistent, systemic operational directives between different ATC facility managements. This aligns with the \"Local ATC facility policy flaws\" repeating issue. It is not Airspace Structure because the physical boundaries of the airspace are not the issue; rather, the administrative rules governing their use are conflicting. It is not Procedure because the controllers are attempting to follow their respective facility mandates; the mandates themselves are the root problem."
+  },
+  {
+    "acn": "1619820",
+    "summary": "During an in-flight medical emergency, the flight crew had to act as a relay between Medlink and a doctor in the cabin due to terrible radio reception, taking their focus away from flying the aircraft. The pilot criticized the airline's corporate equipage policy of forcing the cockpit to handle medical communications instead of providing a dedicated SATCOM system in the cabin.",
+    "primary_problem": "companypolicy",
+    "rationale": "Based on the updated reference logic, this is classified as Company Policy because the hazard was created by a corporate equipage and communication policy that forces pilots to act as medical relay stations. The airline's systemic decision to omit cabin communication tools severely distracted the flight deck. It is not ATC Equipment / Nav Facility / Buildings because the issue is a corporate aircraft outfitting decision, not a failure of an FAA ground facility. It is not Human Factors because the distraction was mandated by company process rather than a pilot's failure to manage workload."
+  },
+  {
+    "acn": "1766276",
+    "summary": "A pilot learned from a colleague that they had been exposed to a COVID-19 positive crew member several days prior, prompting an immediate 14-day hotel quarantine. The pilot filed the report to question why the company's internal protocols completely failed to notify their crew of the exposure, which could have led to further infections.",
+    "primary_problem": "companypolicy",
+    "rationale": "This report falls under Company Policy because the primary failure was the airline management's inability to execute administrative health and safety notifications. This aligns with systemic organizational and administrative policy gaps. It is not Procedure because the failure was at the corporate human resources/management level rather than a tactical flight deck or ramp error. It is not Human Factors because the pilot was a victim of an organizational communication failure, not their own cognitive oversight."
+  },
+  {
+    "acn": "1742507",
+    "summary": "A pilot raised concerns about a regulatory policy gap resulting from COVID-19 exemptions that allowed extended currency limits for Air Carrier Pilots. The reporter highlighted the lack of company guidance preventing two uncurrent pilots (\"Green on Green\") from being paired together after returning from extended voluntary time off.",
+    "primary_problem": "companypolicy",
+    "rationale": "The Company Policy classification is appropriate because the report explicitly identifies a regulatory and procedural policy gap regarding crew pairing and proficiency standards. This matches the \"regulatory/procedural policy gap\" definition within the reference guide. It is not Staffing because the issue is the qualitative policy governing who can fly together, not a quantitative shortage of total available pilots. It is not Human Factors because it addresses a systemic scheduling risk rather than a specific operational error committed during a live flight."
+  },
+  {
+    "acn": "2215710",
+    "summary": "An ATC HR department sent an urgent email demanding an immediate response regarding previous work activities, causing management and controllers to gather in the control room and creating massive distractions. A controller working live traffic noted that this administrative disruption compromised the sterile environment and prevented them from receiving necessary breaks.",
+    "primary_problem": "companypolicy",
+    "rationale": "This is classified as Company Policy because an organizational management/HR directive directly interfered with the safety and sterile environment of the ATC control room. This maps closely to the \"ATC management decisions overriding safety\" repeating issue. It is not Human Factors because the distraction was systematically generated by an overarching management mandate rather than a controller's individual lack of focus. It is not Staffing because, although breaks were missed, the root cause was a corporate administrative disruption rather than a lack of scheduled personnel."
+  },
+  {
+    "acn": "1313365",
+    "summary": "A charter flight crew was detained by US Customs upon arrival because their company dispatch failed to provide adequate passenger visa information or verify that the company was an approved signatory carrier. The crew noted that the company's administrative trip support process left them uninformed and vulnerable to regulatory violations.",
+    "primary_problem": "companypolicy",
+    "rationale": "Based on the updated reference guide logic, this fits Company Policy because the root cause was a systemic failure in the company's dispatch and international trip support administrative policies. The corporate failure to vet passenger documentation exposed the crew to legal and operational jeopardy. It is not Procedure because the failure occurred at the overarching corporate dispatch level prior to the crew receiving the assignment. It is not Human Factors because the crew was systematically deprived of the necessary documentation rather than simply forgetting to check it."
+  }
+]

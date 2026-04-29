@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "2190693",
+    "summary": "Trees are obstructing the Tower's view of the ramp, creating a visual blind spot for the controllers. The reporter requests the removal of the pine trees to eliminate the need for additional radio transmissions to verify aircraft locations.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the core issue is the physical landscaping and obstruction of the airport environment. It aligns directly with the \"Inadequate clearance / obstruction\" repeating issue, where vegetation blocks vital sightlines. It is not classified as ATC Equipment because the facility's radar and radio systems are functioning correctly; the problem is strictly environmental landscaping. Furthermore, it is not Airspace Structure as the issue is limited to the physical surface observation of the ramp, not flight paths."
+  },
+  {
+    "acn": "1816271",
+    "summary": "An aircraft being pushed back encroached on an active taxiway because the stop spot and hold lines were not visible from the cockpit. The pilot noted that the taxi lane layout and painted ground markings were extremely confusing, poorly positioned, and not properly depicted on the airport charts.",
+    "primary_problem": "airport",
+    "rationale": "The Airport label applies because the primary safety hazard was confusing, unmarked, or poorly visible ground markings and taxi lanes on the airport surface. This fits perfectly with the \"Faded or missing runway/taxiway markings\" and \"Confusing or absent signage\" repeating issues. While the pilot mentions the charts were confusing, the root problem encountered during the live operation was the physical layout and lack of visible hold short lines on the pavement itself. It is not Equipment / Tooling because the tug driver did not experience a mechanical failure, but was simply navigating a poorly marked ramp."
+  },
+  {
+    "acn": "1933510",
+    "summary": "During pushback from the gate, an aircraft's left wing struck a building, causing a loud noise and breaking off a piece of the wingtip. The aircraft was returned to the gate, the passengers were safely deplaned, and a replacement aircraft was assigned for the flight.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the incident involves an aircraft striking a physical piece of airport infrastructure (a building) due to inadequate clearance. This directly corresponds to the \"Inadequate clearance / obstruction\" sub-category where ramp congestion or layout creates a collision hazard. It is not Equipment / Tooling because there is no indication that the tug itself broke or malfunctioned. It is not Human Factors because the report highlights the physical collision within the airport's layout rather than detailing a specific crew distraction or cognitive error."
+  },
+  {
+    "acn": "2054047",
+    "summary": "While executing a VMC go-around due to converging traffic at a non-towered airport, a flight crew climbed to 1,500 feet AGL to maintain what they believed was standard turbine pattern altitude, inadvertently encroaching on the overlying Class C airspace. After landing safely, the crew discovered the A/FD mandated a non-standard 1,000-foot AGL pattern altitude for all aircraft, which conflicted with their expectations.",
+    "primary_problem": "airport",
+    "rationale": "Based on the updated reference guide logic, this is classified as Airport because the conflict stemmed directly from non-standard, airport-specific traffic pattern altitudes published for that specific field. The unique local traffic pattern rules for this environment created the hazard when the crew applied general rules of thumb. It is not classified as Airspace Structure because the overarching Class C structural boundaries were correct, but the crew was unaware of the localized airport pattern altitude requirement. It is not Procedure because the crew was actively attempting to avoid a collision rather than willfully disregarding a known rule."
+  },
+  {
+    "acn": "2053246",
+    "summary": "While taxiing at night, a flight crew had to make an abrupt stop to avoid colliding with a passenger bus that crossed the ramp directly in front of their moving aircraft. Both the crew and the ramp controller were surprised by the bus's unexpected movement, highlighting the need for better ground vehicle control.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the central issue is a conflict with a ground vehicle operating unsafely on the airport ramp. This maps perfectly to the \"Ground vehicle conflicts\" repeating issue where vehicles fail to yield or cross in front of taxiing aircraft. It is not classified as Human Factors because the focus of the report is on the systemic hazard of the airport surface environment and vehicle control, rather than a pilot's cognitive error. It is also not Procedure because the narrative focuses on the physical presence of the hazard rather than documenting a specific company protocol violation."
+  },
+  {
+    "acn": "2064324",
+    "summary": "A pilot reported that bright LED lights mounted on a new jetway blinded them while taxiing into the gate, making it exceedingly difficult to see the marshaller. The pilot recommended shielding the lights, aiming them away from the cockpit, or returning to lower-lumen bulbs to prevent blinding flight crews.",
+    "primary_problem": "airport",
+    "rationale": "The Airport classification is appropriate as the hazard is caused by physical airport infrastructure (jetway lighting) creating a visually unsafe operational environment on the ramp. This fits perfectly within the scope of \"Poor airport lighting\" or lighting hazards detailed in the reference guide. It is not Equipment / Tooling because the light is a fixed, permanent part of the airport gate infrastructure, not a malfunctioning mobile ground support tool. It is not Environment - Non Weather Related because the light source is a deliberate installation of the airport, not an external factor like a billboard or laser."
+  },
+  {
+    "acn": "2030116",
+    "summary": "While taxiing to the runway for departure, a flight crew inadvertently entered the runway approach area due to missing or faded hold short bars and a confusing diagonal taxiway layout. The crew realized the error, held short of the runway alignment, and safely departed after noting the lack of clear surface markings and \"hot spot\" designations.",
+    "primary_problem": "airport",
+    "rationale": "This report falls under Airport because the primary cause of the runway incursion hazard was missing or faded hold short markings and a confusing taxiway layout on the pavement. This matches the \"Faded or missing runway/taxiway markings\" and \"Confusing or absent signage\" repeating issues explicitly. It is not Chart Or Publication because the core problem was the physical lack of paint and signs on the pavement where the crew was actively operating. It is not Human Factors because the crew was actively looking for the markings that were simply absent from the airport surface."
+  },
+  {
+    "acn": "2009412",
+    "summary": "A pilot reported that a specific set of taxiways lacked necessary ground markings and signs, making it very difficult to navigate the surface at night. Additionally, the green taxiway centerline lights did not adequately mark the turn.",
+    "primary_problem": "airport",
+    "rationale": "This is assigned the Airport label because the core issue is the complete physical absence of necessary surface markings, signs, and inadequate lighting for taxiways. This aligns exactly with the \"Faded or missing runway/taxiway markings\" and \"Poor airport lighting\" repeating issues. It is not Chart Or Publication because the deficiency is purely in the physical airport environment, not a charting error on an EFB. It is not ATC Equipment because surface paint and signage are the responsibility of airport operations, not the air traffic control facility."
+  },
+  {
+    "acn": "1874765",
+    "summary": "An aircraft taxiing at a very slow speed lost traction and slid sideways on a taxiway that had been swept of snow but not sanded, revealing an underlying sheet of ice. The aircraft slightly exited the taxiway into the grass but sustained no damage and was towed to the FBO for a successful inspection.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the root cause was the physical condition of the airport surface, specifically untreated ice on a taxiway. This maps directly to the \"FOD and surface condition\" repeating issue, which explicitly includes black ice on taxiways causing aircraft to slide. It is not Weather because the active meteorological event (snowfall) had passed; the hazard was the residual, improperly treated surface condition managed by airport ground operations. It is not Aircraft because the slide was caused by external physics, not a failure of the aircraft's internal braking or steering hardware."
+  },
+  {
+    "acn": "1837541",
+    "summary": "A pilot taxiing to the runway was informed by Ground Control that they had entered a controlled movement area and might be subject to a pilot deviation. Upon further inspection, the pilot verified that there were absolutely no taxi hold lines or signs painted on the ground to indicate the boundary of the movement area.",
+    "primary_problem": "airport",
+    "rationale": "The Airport label fits perfectly as the inciting problem was the physical absence of painted hold lines or signage to demarcate a controlled movement area. This aligns directly with the \"Confusing or absent signage\" and \"Faded or missing runway/taxiway markings\" criteria. It is not Procedure because the pilot could not adhere to a hold short instruction for a boundary that did not physically exist on the airport surface. It is not Human Factors because the error was induced entirely by the lack of infrastructure rather than a pilot's failure to observe existing markings."
+  }
+]

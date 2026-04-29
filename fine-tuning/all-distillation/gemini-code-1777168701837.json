@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1691785",
+    "summary": "A pilot was informed by management that improper maintenance had been performed on an aircraft they had recently flown. The pilot noted that the aircraft's maintenance log was perfectly clear and signed off, meaning the physical maintenance was conducted completely without documentation.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the primary safety violation was the complete failure to document maintenance actions in the aircraft's official maintenance log. This directly matches the \"Undocumented Maintenance\" repeating issue. It is not Procedure because the report's focus is on the lack of a historical written record that blinded the pilot to the aircraft's true airworthiness, rather than the physical maintenance execution. It is not Manuals because the failure involved the specific aircraft's maintenance diary rather than a general company reference book."
+  },
+  {
+    "acn": "1691387",
+    "summary": "While in flight, a pilot reviewed the aircraft logbook and noticed a discrepancy in a previous entry regarding a tire replacement. The logbook entry listed the wrong tire number as the one being replaced to correct a worn tire discrepancy.",
+    "primary_problem": "logbookentry",
+    "rationale": "This incident falls under Logbook Entry because the core issue is a typographical error within the official written record of maintenance performed. This aligns with the category's focus on incorrect documentation and sign-offs. It is not classified as Equipment / Tooling because the tires themselves were physically fine and safely installed; the only defect was the written record. It is not Procedure because the physical maintenance was executed correctly, leaving only the administrative documentation in error."
+  },
+  {
+    "acn": "1763411",
+    "summary": "A dispatcher rushing to get a flight crew out before they timed out filled out an MEL log item but forgot to sign the logbook page. Additionally, a flight crew missed a requirement to include specific text with a miscellaneous logbook entry because the Airworthiness Directive compliance instructions were confusing.",
+    "primary_problem": "logbookentry",
+    "rationale": "This fits the Logbook Entry classification because the primary hazards were a missing signature on a logbook page and missing required text for an AD compliance entry. These map perfectly to the \"Missing Signatures & Forms\" and incomplete documentation criteria. It is not classified as MEL, despite an MEL being involved, because the specific failure highlighted by the reporter was the omitted signature on the log page rather than a misinterpretation of the deferral's physical restrictions. It is not Human Factors because, within this taxonomy, specific failures of official aircraft maintenance record-keeping are explicitly routed to this label."
+  },
+  {
+    "acn": "1691136",
+    "summary": "A pilot assigned to a reposition flight noticed a logbook sign-off indicating the aircraft was operating under a special flight permit (ferry permit) for engine damage. The pilot discovered that the actual physical permit was missing from the logbook and dispatch had failed to properly document the ferry status on the release.",
+    "primary_problem": "logbookentry",
+    "rationale": "This report is classified as Logbook Entry because the critical safety hazard was the absence of the physical Special Flight Permit within the aircraft's logbook, masking the aircraft's true airworthiness status. This explicitly matches the \"Missing Signatures & Forms\" criteria added to the reference guide. It is not Company Policy because the hazard was a specific missing document in the aircraft's official records rather than a systemic management directive to fly illegally. It is not Procedure because the pilot successfully caught the error before departing; the failure was the prior administrative preparation of the logbook."
+  },
+  {
+    "acn": "1695075",
+    "summary": "An A&P mechanic with Inspection Authorization signed off an annual inspection on an aircraft they had known for 30 years, assuming all historical paperwork was in order. An FAA review later revealed that the Form 337 and field approval paperwork for the engine installation was completely missing from the aircraft's logbooks.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is assigned the Logbook Entry label because the safety and regulatory violation was the absence of a required FAA Form 337 and installation paperwork in the aircraft's historical logs. This aligns directly with the \"Missing Signatures & Forms\" repeating issue. It is not Procedure because the physical engine installation had functioned safely for 30 years; the defect was entirely within the historical documentation. It is not Manuals because the missing forms are specific historical records for that individual aircraft, rather than a general maintenance reference guide."
+  },
+  {
+    "acn": "1266061",
+    "summary": "A pilot grounded an aircraft due to a hydraulic fluid leak, but the next day noticed the mechanics had cleared the discrepancy simply by wiping the line clean with alcohol and re-securing it. The pilot expressed frustration that signing off a logbook by merely removing evidence of a leak rather than fixing the root cause is becoming a dangerous cultural trend.",
+    "primary_problem": "logbookentry",
+    "rationale": "This falls under Logbook Entry because the primary issue is a dangerously inadequate corrective action entry signed off in the aircraft's official maintenance log. This perfectly matches the \"Inadequate Corrective Action Entries\" criteria where mechanics use the logbook to administratively clear a fault without repairing it. It is not Aircraft because the core focus of the pilot's safety report is the falsified/inadequate nature of the maintenance documentation rather than the leak itself. It is not Company Policy because the specific manifestation of the poor culture occurred via the formal logbook sign-off mechanism."
+  },
+  {
+    "acn": "1691077",
+    "summary": "A flight crew preparing for a ferry flight realized the Aircraft Maintenance Logbook (AML) lacked a required MEL reference for disabled lavatory motors requested by a previous crew. The Mechanic On Duty became belligerent and tried to pressure the pilot into accepting the incomplete logbook before finally agreeing to add the proper MEL reference to the Logbook Deferral Sheet.",
+    "primary_problem": "logbookentry",
+    "rationale": "This incident is classified as Logbook Entry because the primary operational roadblock and dispute centered on missing MEL references within the official Aircraft Maintenance Logbook (AML) deferral sheets. The pilot refused to sign the flight plan until the logbook accurately reflected the maintenance status. It is not MEL because the dispute was about the *documentation* of the deferral in the logbook, not the physical application or legal limitations of the deferral itself. It is not Company Policy, despite the bullying, because the technical resolution required fixing the written logbook entry."
+  },
+  {
+    "acn": "1760152",
+    "summary": "A pilot was unable to access their electronic personal logbook because their phone broke during the COVID-19 pandemic and could not be repaired for months. The pilot subsequently flew an IFR flight assuming they were current through airline requirements, but later realized they could not legally verify their approach currency.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the root cause of the regulatory deviation was the pilot's inability to access and track their personal flight logbook records. This maps directly to the \"Personal Logbook Currency\" repeating issue. It is not Company Policy because the airline's training cycle was legal; the failure was the pilot's personal record-keeping for Part 91 operations. It is not Human Factors because the specific regulatory failure stems from missing or inaccessible historical documentation rather than a physical flying error."
+  },
+  {
+    "acn": "1765353",
+    "summary": "A mechanic completed a taxi light installation and all physical inspections before a flight, but failed to sign the Inspection Authorization (IA) block on the Form 337 until the following day. A colleague preflighting the aircraft assumed the logbook paperwork was complete because it was sitting on the mechanic's desk.",
+    "primary_problem": "logbookentry",
+    "rationale": "This incident fits Logbook Entry because the sole safety and regulatory violation was a missing signature on a Form 337 prior to the aircraft returning to service. This matches the \"Missing Signatures & Forms\" criteria perfectly. It is not Procedure because the physical installation, inspection, and aircraft configuration were all executed perfectly. It is not Human Factors because this taxonomy explicitly categorizes failures of formal maintenance documentation and sign-offs under this specific label."
+  },
+  {
+    "acn": "1756731",
+    "summary": "During scheduled maintenance, mechanics removed and inspected fuel probes but became rushed and returned the aircraft to service without reinstalling the panels. The mechanics also completely failed to document any of the fuel probe work in the aircraft's logbook.",
+    "primary_problem": "logbookentry",
+    "rationale": "This report is classified as Logbook Entry because a primary and critical safety failure was the complete lack of documentation in the maintenance logbook for work performed on the fuel system. This directly aligns with the \"Undocumented Maintenance\" repeating issue. While leaving the panels off is a Procedure error, the reporter heavily emphasizes the failure to write the logbook entries as the reason the uninstalled panels went unnoticed during the handover. It is not Aircraft because the root cause of the unairworthy release was the rushed, undocumented maintenance process."
+  }
+]

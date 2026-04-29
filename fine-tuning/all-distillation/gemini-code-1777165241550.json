@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1505998",
+    "summary": "After flying a coupled ILS approach to minimums, the flight crew broke out of the clouds to find they were 100 feet to the left of the runway centerline. The pilot manually took over to land the aircraft visually and recommended fixing the ILS critical area.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the root cause was a degraded or bending signal from the ground-based ILS equipment. This aligns with the expanded definition treating ATC and ground navigation hardware anomalies as generic equipment failures. It is not classified as ATC Equipment / Nav Facility / Buildings because this dataset specifically routes general ILS hardware performance issues into the broader tooling category. It is not Aircraft because the autopilot functioned correctly by following the erroneous signal it received."
+  },
+  {
+    "acn": "1764410",
+    "summary": "A controller was unable to reach an aircraft flying at the Minimum IFR Altitude (MIA) due to poor transmitter frequency coverage in that specific sector. The aircraft was forced to climb on its own to regain radio contact and receive a reroute around terrain.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This incident fits Equipment / Tooling because the primary hazard was the physical limitation and poor coverage of the ATC radio transmitter hardware. This maps directly to the inclusion of ATC and ground navigation hardware limitations under the generic equipment label. It is not Airspace Structure because the physical boundaries of the sector were not the hazard, but rather the lack of functional radio equipment. It is not Company Policy because the issue is a physical hardware constraint rather than a management directive."
+  },
+  {
+    "acn": "1377365",
+    "summary": "A pilot noted that the JeppFD-Pro Electronic Flight Bag (EFB) application incorrectly routes the MGM VOR to a similarly named heliport in Texas. The reporter requested that the software tool be updated to default to standard identifiers rather than names.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "The Equipment / Tooling label applies because the hazard is a software logic or search function error within a specific EFB application used as a cockpit tool. This aligns with the \"Electronic Flight Bag (EFB) & Dispatch Applications\" repeating issue. It is not Chart Or Publication because the issue is the dynamic search algorithm of the software tool rather than a misprinted static chart. It is not Software and Automation because that category is typically reserved for the aircraft's internal, hardwired Flight Management System (FMS)."
+  },
+  {
+    "acn": "1308342",
+    "summary": "A flight crew received a Pre-Departure Clearance (PDC) that confusingly listed both their filed SID and a second, unexpected SID. This software generation error caused significant confusion during departure when ATC expected the crew to fly a different route.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the root cause was a data generation glitch within the PDC dispatch software tool used to transmit clearances. This falls under the \"Electronic Flight Bag (EFB) & Dispatch Applications\" criteria. It is not Procedure because the crew and controllers were reacting to a flawed automated output rather than skipping a required step. It is not Human Factors because the confusion was systematically induced by the defective clearance generation equipment."
+  },
+  {
+    "acn": "1414185",
+    "summary": "A dispatcher evaluating alternate airports realized that the SABRE dispatch software failed to display a critical runway closure NOTAM that was active on the FAA website. The software's failure to pull the data could have led to an aircraft attempting to land on a closed runway with active construction.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This report is classified as Equipment / Tooling because the hazard originated from a data retrieval failure within the SABRE dispatch software tool. This perfectly matches the \"Dispatch & Flight Planning Software Failures\" and EFB application glitch definitions. It is not Chart Or Publication because the NOTAM was correctly published by the FAA; the airline's specific software tool simply failed to ingest it. It is not Company Policy because the omission was a software tool failure rather than a deliberate management decision."
+  },
+  {
+    "acn": "1763964",
+    "summary": "A technician discovered that a nitrogen servicing cart was loaded with bottles painted green, which is the industry standard color for oxygen. The technician warned that this mislabeled maintenance tooling could easily lead to catastrophic aircraft damage or fatalities if a system was serviced with the wrong gas.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This falls under Equipment / Tooling because the core hazard is improperly labeled and painted maintenance servicing gear. This aligns exactly with the \"Maintenance & Servicing Tooling\" repeating issue. It is not Human Factors because the technician successfully identified the hazard, which was created by the physical state of the equipment itself. It is not Aircraft because the dangerous bottles were external ground support equipment, not integrated aircraft components."
+  },
+  {
+    "acn": "1340974",
+    "summary": "An employee operating a hybrid aircraft pushback tug experienced a total loss of steering due to a drive-by-wire computer failure. The operator had to restart the tug to regain control, noting that this equipment failure could cause severe damage or injury if it occurred while towing an aircraft.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the safety event involved the catastrophic mechanical and software failure of a piece of ground support equipment (a tug). This maps directly to the \"Ground Support & Cabin Equipment (GSE) Failures\" definition. It is not Airport because the failure was of a specific mobile tool used for aircraft servicing, rather than the airport's pavement infrastructure. It is not Procedure because the employee was operating the tug normally when it unpredictably malfunctioned."
+  },
+  {
+    "acn": "1236916",
+    "summary": "During a fuel tank inspection, a maintenance worker experienced nausea because the ventilation hoses were deteriorated and leaked jet fuel fumes into the hangar. The worker was unable to measure the fume levels because the calibration gas for the multi-gas detector tool was empty.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This incident fits Equipment / Tooling because the hazards were directly caused by defective and unmaintained maintenance gear (deteriorated ventilation hoses and an uncalibrated gas detector). This matches the \"Maintenance & Servicing Tooling\" sub-category perfectly. It is not Environment - Non Weather Related because the toxic fumes were a byproduct of a specific maintenance task and broken venting tools rather than a random external environmental factor. It is not Company Policy because the specific failure point was the broken physical equipment rather than a broader administrative directive."
+  },
+  {
+    "acn": "1562205",
+    "summary": "Shortly after takeoff, the flight crew detected an acrid smell and unusual smoke on the flight deck, prompting the First Officer to don an oxygen mask and the crew to run the smoke checklist. The fumes were later traced to a leak in the Auxiliary Power Unit (APU) system contaminating the air conditioning, which caused the crew to require medical treatment.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "The Equipment / Tooling label applies here because the inciting event was a mechanical failure of auxiliary aircraft equipment (the APU) that required the use of emergency oxygen tools. This aligns with the \"Auxiliary Aircraft Equipment (APU/ECS)\" failures covered under the broadened equipment definition. It is not classified as Aircraft because this specific dataset isolates auxiliary environmental and power systems into the general tooling/equipment bucket. It is not Company Policy, despite the mention of local hospital protocols, because the root hazard that initiated the emergency was the physical equipment leak."
+  },
+  {
+    "acn": "1661076",
+    "summary": "A flight crew was forced to delay pushback because the ramp crew possessed four consecutive broken or uncharged communication headsets. The Ramp Supervisor attempted to pressure the Captain into using hand signals, but the Captain refused until a working wired headset tool was located.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the operational delay and safety conflict were caused by a lack of functional ground support communication hardware (headsets). This maps perfectly to the \"Ground Support & Cabin Equipment (GSE) Failures\" repeating issue. It is not Procedure because the Captain correctly followed the manual by refusing to push back without the required equipment. It is not Company Policy because the airline's policy explicitly prohibited the hand-signal pushback; the failure was the physical lack of maintained tools on the ramp."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "2036459",
+    "summary": "An aircraft descending via an arrival procedure experienced traffic conflicts with unknown VFR aircraft entering the ILS approach path, leading to TCAS alerts. The pilot recommended expanding the local Class C airspace to protect final approach courses from non-participating VFR traffic.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because the primary issue is the structural design of the airspace, which places active IFR approach paths in close proximity to uncontrolled VFR traffic areas. It fits the \"VFR/IFR conflicts from airspace design\" repeating issue. It is not classified as ATC Equipment because no radar or facility failed, and it is not Procedure because the VFR aircraft was acting legally within the existing airspace rules."
+  },
+  {
+    "acn": "1632516",
+    "summary": "While flying an RNAV approach, a flight crew received a TCAS RA commanding a climb to avoid maneuvering VFR flight training traffic near a VOR. The crew safely resolved the conflict and noted that the airport's airspace is becoming increasingly congested, suggesting improved charting or outreach to local flight schools.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This report is classified as Airspace Structure because the root problem is the airspace layout that structurally places IFR arrival traffic in direct conflict with high-volume VFR flight training areas, leading to a TCAS RA. This aligns with the \"VFR/IFR conflicts from airspace design\" pattern. It is not classified as Chart Or Publication; although the pilot requested a chart note, the underlying hazard is the physical airspace usage and structural overlap of traffic."
+  },
+  {
+    "acn": "1567505",
+    "summary": "A Temporary Flight Restriction (TFR) boundary overlaps with the only flight-tested IFR departure fix for an airport, forcing pilots to depart VFR and climb to the minimum vectoring altitude before picking up IFR clearances. The reporter notes this airspace configuration essentially denies IFR access in IMC conditions and advocates for flight testing new departure fixes outside the TFR ring.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is Airspace Structure because the incident highlights a physical conflict between a TFR boundary and the published instrument departure routes, effectively blocking IFR departures. This aligns with the \"TFR structure / special use airspace conflicts\" repeating issue. It is not classified as Chart Or Publication because the charts are factually correct; rather, the physical airspace structure itself creates the operational barrier."
+  },
+  {
+    "acn": "1396857",
+    "summary": "The reporter filed an extremely brief narrative stating only that a near mid-air collision occurred.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This incident is classified as Airspace Structure as it involves a near mid-air collision, which is frequently the result of structural airspace design flaws, VFR/IFR corridor overlaps, or poor traffic pattern design. It is not classified as Human Factors or Procedure because the extremely brief narrative provides no evidence of pilot error, SOP non-compliance, or specific handling mistakes."
+  },
+  {
+    "acn": "1397226",
+    "summary": "After departing an airport under IFR, a flight crew experienced two consecutive TCAS RAs from VFR traffic transitioning through a nearby Special Flight Rules Area. The pilot attributed the conflicts to ATC releasing IFR departures directly into a busy VFR corridor where structural airspace overlapping creates chronic hazards.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because the primary hazard is the geographic design that routes IFR departures directly adjacent to or through a busy VFR Special Flight Rules Area, triggering the RAs. This fits the \"Airspace design issues at boundaries\" theme. While ATC vectoring played a role, it is not primarily Staffing or Procedure because the root issue is the inherent structural conflict built into the departure path."
+  },
+  {
+    "acn": "1870335",
+    "summary": "During an RNAV GPS approach, the aircraft's instruments displayed an erroneous vertical path indication showing the aircraft was significantly below the proper glide path. The crew acquired the airport visually and manually flew below the indicated VNAV path to safely land, noting that remaining on autopilot would have resulted in a missed approach.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This report is classified as Airspace Structure because the erroneous vertical path indication stems from a poorly designed instrument approach procedure or an issue with the structural design of the RNAV glidepath itself. This aligns with the category's inclusion of \"poorly designed procedures.\" It is distinct from Software and Automation as the event is logged as an approach design flaw rather than an FMS software crash or database omission."
+  },
+  {
+    "acn": "1528873",
+    "summary": "A VFR pilot operating below Class B airspace observed an inbound airliner at the same altitude, prompting a route deviation to avoid conflict. The reporter highlights a structural flaw in the airspace design that allows uncontrolled VFR aircraft to share altitude with heavy IFR traffic established on the ILS approach, advocating for airspace boundary modifications.",
+    "primary_problem": "airspacestructure",
+    "rationale": "The classification of Airspace Structure applies because the incident emphasizes a geometric vulnerability where Class B and C boundaries do not adequately protect IFR final approach courses from VFR traffic. This directly matches the \"Airspace design issues at boundaries\" repeating issue. It is not classified as Procedure because both aircraft were operating legally according to current airspace rules, confirming the hazard is built into the airspace itself."
+  },
+  {
+    "acn": "1495148",
+    "summary": "An aircraft on final approach received a TCAS RA and was forced to go around due to unknown VFR traffic transitioning through the Class Delta airspace in the opposite direction. The controller noted that the VFR aircraft was legally allowed to converge with the final approach course without altitude restrictions, concluding that a Class C airspace upgrade is needed.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This incident is classified as Airspace Structure because the root problem is the insufficient protection provided by the Class Delta airspace boundaries, which structurally allow VFR aircraft to conflict with IFR arrivals. This perfectly aligns with the recommendation for \"Class B/C upgrade to resolve chronic conflict\" detailed in the reference guide. It is not classified as Procedure because the VFR transition was legally permitted under the current structure."
+  },
+  {
+    "acn": "1662800",
+    "summary": "While flying an RNAV approach and maintaining visual contact with reported traffic, a flight crew experienced a TCAS RA as the other aircraft encroached on their flight path. The crew disconnected the autopilot, executed a manual climb, and then completed a visual approach after determining the traffic was no longer a threat.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because the event centers on a TCAS Resolution Advisory (RA) triggered by conflicting traffic operating in structurally tight or converging airspace during an approach. It corresponds directly to the \"TCAS / Resolution Advisory (RA) events\" sub-category. It is not classified as Human Factors because the crew maintained visual contact and responded appropriately to the RA without committing a handling error."
+  },
+  {
+    "acn": "1474489",
+    "summary": "An approach controller managing combined sectors had to vector an arriving IFR aircraft off the localizer to avoid a non-communicating VFR aircraft tracking outbound near the final approach fix. The controller expressed deep concern that the airspace design allows VFR aircraft to transit a narrow, busy corridor without ATC communication, creating chronic and severe safety hazards.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This report falls under Airspace Structure because the primary safety issue is a structurally flawed VFR corridor that allows non-communicating traffic to legally mix with IFR arrivals near the final approach fix. This fits the \"VFR/IFR conflicts from airspace design\" pattern perfectly. While the controller was working combined sectors, it is not labeled Staffing because the explicit hazard identified is the physical airspace design and the lack of a mandatory communication boundary."
+  }
+]

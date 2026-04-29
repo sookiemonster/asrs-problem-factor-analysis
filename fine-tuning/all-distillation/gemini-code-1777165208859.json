@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "2177266",
+    "summary": "During a visual approach in clear conditions, the flight crew briefed an altitude restriction to maintain 3,000 feet before passing a specific ridge line, as recommended by company pages. However, the aircraft descended early to 2,600 feet, triggering an aural terrain warning. The pilot monitoring recognized that they should have provided more active support to the captain to maintain the structural altitude restriction.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This incident is classified as Airspace Structure because it involves an altitude deviation directly related to the physical terrain (ridge line) and the structural constraints of the approach path. This aligns with the category's focus on altitude deviations and terrain clearance limits inherent to the airspace design. It is not classified as Company Policy, despite the mention of company pages, because the root hazard is the physical interaction between the aircraft's path and the geographic terrain structure. It is also not Procedure because the crew did not intentionally violate an ATC directive, but rather drifted below the structural terrain boundary."
+  },
+  {
+    "acn": "1759745",
+    "summary": "A pilot flying an IFR approach cancelled IFR to fly a visual approach due to a low marine layer obscuring the uncontrolled airport. Another aircraft, likely a student pilot flying an illegal VFR pattern due to the marine layer ceiling, cut off the reporter on short final, forcing the reporter to execute a 360-degree turn to avoid a collision.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This report fits Airspace Structure because it details a traffic pattern conflict and a near mid-air collision (NMAC) at a non-towered airport. The reference guide explicitly lists \"Traffic pattern conflicts / NMACs — near mid-air collisions from poor traffic pattern design at non-towered airports\" as a key repeating issue. It is not classified as Environment - Non Weather Related because the conflict arose from structural traffic pattern overlap rather than an external object like a drone or bird. It is also not Human Factors, as the primary focus is the structural vulnerability of the uncontrolled pattern exacerbated by the overlying Class E airspace boundaries."
+  },
+  {
+    "acn": "1502317",
+    "summary": "An airliner deviated from its assigned RNAV arrival track and subsequently descended below the Minimum Vectoring Altitude (MVA). The controller noticed the deviation, issued a corrective vector, and queried the pilot to ensure they could maintain their own terrain and obstruction clearance. The pilot later apologized for the navigational error that led to the MVA violation.",
+    "primary_problem": "airspacestructure",
+    "rationale": "The classification is Airspace Structure because the event centers on an MVA (Minimum Vectoring Altitude) violation related to the RNAV STAR procedure's structural boundaries. The reference explicitly lists \"MVA / Minimum Vectoring Altitude violations\" and altitude deviations connected to SID/STAR structure under this category. It is not Procedure because the central hazard documented by the controller is the aircraft's physical presence below the structural terrain clearance boundary. It is also distinct from Chart Or Publication because the RNAV chart itself was not alleged to be incorrect."
+  },
+  {
+    "acn": "1480154",
+    "summary": "While performing air work in an assigned altitude block of 10,000 to 17,000 feet, a flight crew received an ADS-B traffic warning. The crew visually acquired an airliner slightly below their altitude and took evasive action by rolling wings level and climbing to avoid a mid-air collision.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because it involves a near mid-air collision (NMAC) and traffic conflict between an aircraft operating in a designated practice block and an airliner. This perfectly aligns with the \"Airspace design issues at boundaries\" and general NMAC themes, where structural airspace layout creates converging traffic hazards. It is not classified as ATC Equipment because the ADS-B functioned properly to warn the crew. Furthermore, it is not Procedure because both aircraft were presumably operating legally within their respective structural airspace assignments."
+  },
+  {
+    "acn": "1307870",
+    "summary": "An IFR aircraft was routed directly through an active jump zone, which is a recurring safety issue reported by the controller. Although a Letter of Agreement (LOA) requires the TRACON to deliver aircraft on a heading parallel to the airway to avoid this hazard, the adjacent sector repeatedly routes aircraft through the dangerous airspace.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is Airspace Structure because the core issue is an airspace design conflict where an active IFR route structurally intersects a special use airspace (jump zone). This exactly matches the \"TFR structure / special use airspace conflicts\" and \"Airspace design issues at boundaries\" listed in the reference guide. It is not classified as Manuals, despite the LOA mention, because the physical hazard is the geographic layout of the airspace itself. It is also not ATC Equipment because there is no mention of radar or automation failure causing the routing."
+  },
+  {
+    "acn": "2068831",
+    "summary": "While performing night currency at a towered airport, ATC extended a pilot's left downwind leg, putting the aircraft directly on a collision course with a 6,178-foot unlit hill. The pilot unilaterally turned to avoid the terrain, noting that the extended downwind over the obstacle constitutes a serious hazard for training flights at night.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because the established traffic pattern and ATC vectoring structurally conflict with rising terrain, endangering the aircraft. The structural design of the pattern extension puts aircraft in physical jeopardy, aligning with the category's focus on \"MVA violations\" and structural terrain conflicts. It is not ATC Equipment or Airport because the hazard is the geographic terrain relative to the airspace boundaries, not airport pavement or a broken radar. It is not Human Factors because the pilot successfully diagnosed and escaped the structurally flawed vector."
+  },
+  {
+    "acn": "1515805",
+    "summary": "During an instrument departure, a flight crew received multiple traffic advisories and a TCAS RA to descend while they were in a steep climb, forcing them to arrest their climb to avoid another aircraft. The evasive maneuvers and ATC queries caused the crew to become distracted, leading to a minor speed violation above the SID's 250-knot restriction.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This fits Airspace Structure because the primary triggering event was a TCAS RA caused by conflicting traffic in structurally dense airspace during a Standard Instrument Departure (SID). This matches the \"TCAS / Resolution Advisory (RA) events\" and \"VFR/IFR conflicts from airspace design\" criteria. Although there are human factor elements regarding distraction and speed, the root hazard requiring immediate intervention was the structural traffic conflict. It is not Procedure because the speed deviation was secondary to the structural RA compliance."
+  },
+  {
+    "acn": "1376702",
+    "summary": "A VFR pilot attempting to climb through overlying Class C and Class D airspace could not establish contact with busy TRACON controllers. To avoid a near mid-air collision with converging traffic, the pilot yielded the right-of-way and inadvertently entered a Class D surface area without communication, resulting in a possible pilot deviation.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is Airspace Structure because the pilot was squeezed between multiple complex airspace boundaries (Class C, multiple Class Ds, and a Class B shelf) while avoiding VFR traffic. This structurally induced bottleneck directly aligns with \"Airspace design issues at boundaries\" and \"VFR/IFR conflicts from airspace design\" from the reference guide. It is not classified as Staffing, even though the controllers were busy, because the underlying hazard is the highly compressed geographic design of the airspace. It is not Procedure because the pilot was forced into the deviation by structural conflict avoidance."
+  },
+  {
+    "acn": "1421778",
+    "summary": "An aircraft being vectored to intercept a localizer shot through the final approach course and was observed descending into the 110-foot Minimum Vectoring Altitude (MVA). Despite an instructor taking over and issuing a correction heading, the aircraft was allowed to continue descending below the MVA.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This is classified as Airspace Structure because the core safety event is a descent below the Minimum Vectoring Altitude (MVA) during an approach intercept. This maps exactly to the \"MVA / Minimum Vectoring Altitude violations\" repeating issue specifically delineated for this label. It is not Procedure because the focus is strictly on the structural minimum altitude boundary rather than a specific SOP violation. It is not Human Factors because the structural layout of the MVA is the focal point of the controller's safety report."
+  },
+  {
+    "acn": "1519729",
+    "summary": "While being vectored to intercept an ILS approach and descending to 3,000 feet, a flight crew received a TCAS RA to climb due to rapidly converging, unobserved traffic. The First Officer executed a steep 45-50 degree bank and climbed to avoid the target, which passed within 200 feet, causing an altitude deviation before the crew successfully resumed the approach.",
+    "primary_problem": "airspacestructure",
+    "rationale": "This report is classified as Airspace Structure because the primary hazard was a near mid-air collision and subsequent TCAS RA triggered by conflicting traffic during an approach vector. This fits precisely within the \"TCAS / Resolution Advisory (RA) events\" and \"VFR/IFR conflicts from airspace design\" sub-categories. It is not Procedure because the conflict arose from the structural overlapping of traffic paths, not from a crew's intentional rule violation. It is also not Human Factors as the crew executed a successful escape maneuver without committing an error."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1422019",
+    "summary": "During descent at night, a flight crew realized their entire overhead panel was completely dark and inoperable. They discovered that maintenance had applied the wrong MEL for the defect, bypassing the correct MEL which strictly prohibited night operations.",
+    "primary_problem": "mel",
+    "rationale": "This is classified as MEL because the primary safety hazard was the misapplication of a deferral code by maintenance, allowing the aircraft to be dispatched illegally for night operations. This perfectly matches the \"Misapplication of Deferral Codes\" repeating issue. It is not classified as Aircraft because the hardware defect was known prior to dispatch but improperly categorized. It is not Procedure because the critical failure was the specific legal and administrative deferral coding rather than a tactical checklist execution error."
+  },
+  {
+    "acn": "1523658",
+    "summary": "An aircraft dispatched with an MEL for a center tank pump low-pressure warning light experienced a severe fuel imbalance enroute. The crew had to run fuel leak checklists and divert for an overweight landing, later suspecting the deferred pump was actually failing to feed fuel to the engine.",
+    "primary_problem": "mel",
+    "rationale": "This falls under MEL because an active deferral masked a more severe mechanical limitation, resulting in significant operational degradation and a diversion. This aligns directly with the \"Operational Degradation due to MEL\" classification criteria. It is not Aircraft because the issue stems from the known, deferred component's unpredicted secondary effects rather than a completely unprompted new system failure. It is not Procedure because the crew diligently followed the checklists based on the symptoms presented by the legally deferred system."
+  },
+  {
+    "acn": "1688027",
+    "summary": "A flight crew reviewing their release for an ETOPS flight noticed an unresolved APU shutdown history that lacked a required verification flight or MEL deferral. The crew refused the aircraft, and it was discovered the plane had illegally flown at least four ETOPS segments with the undocumented defect.",
+    "primary_problem": "mel",
+    "rationale": "Based on the updated reference guide logic, this is classified as MEL because the root cause was the failure of maintenance and dispatch to apply a required Minimum Equipment List deferral or verification flight for a known defect. The administrative omission allowed an unairworthy aircraft into ETOPS revenue service. It is not Company Policy because the specific failure point was the missing mechanical deferral documentation rather than a broad scheduling or management pressure tactic. It is not Procedure because the critical error was the legal dispatch categorization of the aircraft's status prior to crew assignment."
+  },
+  {
+    "acn": "1686107",
+    "summary": "An aircraft was dispatched with multiple conflicting MEL deferrals involving the APU and the Air Driven Pump (ADP), unnecessarily knocking out backup electrical systems. The crew returned to the gate to have the confusing and improperly applied deferrals amended by maintenance control to ensure a safe configuration for weather avoidance.",
+    "primary_problem": "mel",
+    "rationale": "This is classified as MEL because the hazard was created by the improper combination and misapplication of multiple deferral codes, leading to an unsafe loss of system redundancy. This matches the criteria for misapplication and operational degradation due to MELs. It is not Manuals because the specific conflict arose from the active legal dispatch deferrals applied to that exact flight, rather than a generic flight operations handbook. It is not Company Policy, despite mention of schedule pressure, because the core technical resolution required amending specific deferral codes."
+  },
+  {
+    "acn": "1581171",
+    "summary": "During taxi, a pilot discovered a high stage bleed valve failed closed and requested a specific MEL that allowed flight in icing conditions. Maintenance Control refused and applied a much more restrictive MEL disabling the entire left bleed system, which forced the crew to descend to 13,000 feet to avoid unforecast icing.",
+    "primary_problem": "mel",
+    "rationale": "The MEL label applies because the core of the safety event is a dispute over the selection and operational consequences of a specific Minimum Equipment List deferral. The application of the overly restrictive MEL severely degraded the aircraft's operational capabilities and pushed it into an icing hazard. It is not Weather because the unforecast icing was only a threat due to the specific degraded configuration dictated by the MEL. It is not Company Policy because the conflict centered entirely on the mechanical and legal constraints of the deferral code itself."
+  },
+  {
+    "acn": "1705207",
+    "summary": "An aircraft was dispatched with an MEL for the cockpit door electronic lock, which required the crew to use the mechanical deadbolt in flight. The pilot reported that this MEL procedure is structurally unsafe, as it completely prevents flight attendants or rescue personnel from accessing the flight deck if the pilots become incapacitated.",
+    "primary_problem": "mel",
+    "rationale": "This incident is classified as MEL because the legal deferral instructions mandated an operational configuration that inherently degraded safety and trapped the crew. This maps directly to the \"Operational Degradation due to MEL\" and ambiguous/unsafe deferral instructions repeating issues. It is not Manuals because the problematic text is the specific dispatch deferral constraint (the MEL itself) rather than a general aircraft operating manual. It is not Aircraft because the broken lock was a known, deferred item managed administratively on the ground."
+  },
+  {
+    "acn": "1585804",
+    "summary": "An aircraft was dispatched with both FMS units deferred under an MEL, forcing the crew to navigate VOR-to-VOR and manually verify waypoints. The First Officer was extremely uncomfortable with the ambiguous MEL instructions for verifying routes, leading to conflicts with ATC over RNAV procedures and ultimately a crew replacement.",
+    "primary_problem": "mel",
+    "rationale": "This falls under MEL because the primary source of the operational disruption and crew discomfort was the ambiguous and confusing text within the Minimum Equipment List deferral instructions. The vague MEL guidance on how to manually verify waypoints led to ATC conflicts and a loss of confidence. It is not Manuals because the confusion was strictly tied to the legal deferral document permitting the aircraft to fly broken. It is not Company Policy because the issue was the interpretation of the specific deferral procedure rather than management forcing the crew to fly."
+  },
+  {
+    "acn": "1689702",
+    "summary": "A flight crew dispatched under an MEL for an inoperative flight deck door keypad noted that the MEL instructed them to use the deadbolt in flight, directly contradicting a physical placard that said \"ground use only.\" The pilot highlighted that the MEL lacked guidance on overriding the placard and buried references to alternate access procedures.",
+    "primary_problem": "mel",
+    "rationale": "Based on the updated reference logic, this is classified as MEL because the written instructions of the deferral directly conflicted with physical aircraft placards and lacked clear operational guidance. This maps to the \"Conflicting Placards & References\" criteria added for this category. It is not Manuals because the specific document creating the hazard is the legal dispatch deferral authorizing the broken keypad. It is not Company Policy because the hazard stems from the specific wording and contradictions within the MEL itself."
+  },
+  {
+    "acn": "1681089",
+    "summary": "An aircraft was dispatched with an MEL for the #2 ECAM Brake Temperature Indication, but maintenance had added multiple other brake indications to the \"work in progress\" notes without updating the primary MEL description. The pilot questioned the legality of this practice, as it prevents crews from adequately briefing the true extent of the deferred items.",
+    "primary_problem": "mel",
+    "rationale": "This is classified as MEL because the central issue is the administrative documentation and legal description of a Minimum Equipment List deferral prior to dispatch. The failure to accurately describe all inoperative components in the primary MEL text creates a severe briefing hazard for the crew. It is not Procedure because the core debate is about the legal framework and documentation of the deferral process itself rather than a tactical flight deck checklist. It is not Company Policy because the dispute is focused on the specific mechanical and legal restrictions of the applied MEL."
+  },
+  {
+    "acn": "1712650",
+    "summary": "A flight crew and maintenance personnel spent 20 minutes attempting to decipher an extremely confusing fuel gauge deferral table for a Q400 aircraft. The pilot warned that the MEL table is so poorly written that misinterpreting it could easily lead to an aircraft launching with insufficient fuel and suffering in-flight starvation.",
+    "primary_problem": "mel",
+    "rationale": "The MEL label applies because the primary safety hazard is highly confusing and poorly formatted text within a Minimum Equipment List deferral table. This aligns explicitly with the \"Ambiguous Deferral Instructions\" repeating issue. It is not Manuals because the flawed text is specifically the legal deferral documentation used to dispatch an aircraft with broken equipment. It is not Human Factors because the crew recognized the ambiguity and safely resolved it, proving the table itself was the hazard rather than pilot proficiency."
+  }
+]

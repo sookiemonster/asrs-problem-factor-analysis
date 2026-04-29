@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "2047145",
+    "summary": "A flight crew was given an unfamiliar clearance for an RNAV visual approach because the associated STAR and approach procedure did not share common fixes. The crew noted that the poor structural design of the charted approach creates a high risk of overshooting the final approach course, especially for less familiar crews.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This incident is classified as Chart Or Publication because the root cause is the poor, disjointed design of the published instrument approach chart and its associated arrival fixes. The published lack of common waypoints between the STAR and the approach procedure inherently sets up flight crews for navigation confusion. It is not classified as Airspace Structure because the hazard lies in the specific charted waypoints and navigation database coding rather than the physical geometric boundaries of the airspace. Furthermore, it is not a Procedure or Human Factors issue because the crew successfully navigated the poorly charted procedure without committing an operational error."
+  },
+  {
+    "acn": "1996482",
+    "summary": "A frequency is published on several approach plates for the flying public to use, but the local air traffic controller workforce has never been briefed or equipped to monitor it. A controller reported this as a massive safety concern, noting that pilots attempting to use the charted frequency would be met with silence.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the core hazard is the premature or uncoordinated publication of a radio frequency on public approach plates. The published charts are directing pilots to use a communication channel that does not operationally exist for the controllers. It is not classified as ATC Equipment / Nav Facility / Buildings because the physical radio switch is not broken; the facility was simply never authorized to use the published frequency. It is also not Company Policy because the error lies in the charting authority's publication process rather than an internal airline or ATC management mandate."
+  },
+  {
+    "acn": "2249028",
+    "summary": "While taxiing to the international terminal at night, a flight crew noticed their electronic moving map did not accurately reflect the physical reality of the taxiways due to construction. The EFB showed multiple closed taxiways and hold short bars that misled the crew regarding their required clearance onto an active runway.",
+    "primary_problem": "chartorpublication",
+    "rationale": "The Chart Or Publication label is appropriate because the primary hazard was an outdated or inaccurate electronic airport diagram displayed on the crew's Electronic Flight Bag (EFB). The digital chart failed to depict the current, safe routing through a construction zone, increasing the risk of a runway incursion. It is not classified as Airport because the physical taxiways and construction were managed correctly; the failure was entirely within the charting software's representation. It is not Human Factors because the crew was actively attempting to comply with ATC instructions but was hindered by a flawed navigation publication."
+  },
+  {
+    "acn": "1881405",
+    "summary": "After landing, an aircraft was instructed by the controller to make a hard right turn onto Taxiway A. The First Officer realized that Taxiway A completely did not exist on their EFB's Jeppesen chart, despite the database being fully updated.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This incident is classified as Chart Or Publication because the inciting event was a missing taxiway in the aircraft's electronic navigation chart database. The omission of critical physical infrastructure from the published diagram left the crew unable to easily comply with ATC instructions. It is not classified as Airport because the physical taxiway existed and was usable on the field; the failure was strictly within the charting provider's database. It is not Procedure because the crew did not make a tactical error; they simply possessed a chart with missing data."
+  },
+  {
+    "acn": "1547741",
+    "summary": "During a go-around at a familiar airport, a pilot narrowly avoided an unlit antenna mounted on a maintenance hangar that had no associated NOTAMs. The pilot expressed concern that unfamiliar pilots might easily collide with the obstruction due to the lack of published hazard warnings.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This report falls under Chart Or Publication because the safety hazard was the complete administrative failure to publish a NOTAM regarding a new, dangerous obstruction near the runway. The absence of the published warning deprived the pilot of critical preflight planning information. It is not classified as Airport because, while the antenna is physical infrastructure, the primary safety breakdown was the failure of the informational publication system. It is also not Human Factors because the pilot successfully avoided the object and the hazard was created by the lack of published data, not a pilot error."
+  },
+  {
+    "acn": "1663943",
+    "summary": "A flight crew flying in Mexico discovered that their new Charts+ digital charts were missing critical DME arc fixes that were present on their FMS and previous Jeppesen charts. The pilot stated that it is impossible to safely brief or fly an approach in mountainous terrain when the charts omit mandatory fixes.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the core safety issue is a defective, cluttered, and incomplete electronic charting product that omits vital navigation fixes. The explicit lack of published data on the new digital charts creates a severe hazard during instrument approaches. It is not classified as Software and Automation because the issue is the content of the chart's digital illustration rather than a crash of the EFB's underlying operating system. It is not Company Policy because the hazard is the physical missing chart data itself, even though the company mandated the use of the new charts."
+  },
+  {
+    "acn": "1753398",
+    "summary": "A flight crew noted a preflight NOTAM regarding a crane that raised the approach minimums for a specific runway. During the arrival, the approach controller was completely unaware of the NOTAM, and the crew's secondary charting software also showed no record of it, causing significant confusion regarding the legal approach minimums.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This incident is classified as Chart Or Publication because it highlights a dangerous discrepancy and lack of synchronization between different NOTAM publication systems and ATC databases. The conflicting published information made it difficult for the crew to determine the legal approach minimums. It is not classified as ATC Equipment / Nav Facility / Buildings because the controller's radar and radios were working; they simply lacked the published NOTAM data. It is not Procedure because the crew attempted to follow the rules but were thwarted by contradictory published information."
+  },
+  {
+    "acn": "1976478",
+    "summary": "A pilot noted that a specific portion of an elevated runway freezes before the rest of the surface, creating a severe and unpredictable braking hazard for heavy jets. The reporter requested that this chronic phenomenon be explicitly documented on the airport's 10-9 approach charts to warn unfamiliar crews.",
+    "primary_problem": "chartorpublication",
+    "rationale": "The Chart Or Publication label is assigned because the primary objective of the report is to rectify the omission of a critical hazard warning from the airport's published charts. The lack of documented, published information forces crews to rely dangerously on word-of-mouth. It is not classified as Weather because the focus of the report is the lack of a permanent chart warning, not a specific active snowstorm. It is not Airport because the physical construction of the runway is known and established; the failure is in the documentation and publication of its quirks."
+  },
+  {
+    "acn": "1436319",
+    "summary": "A flight crew struggled to verify if an ATC-proposed direct routing complied with their 162-nautical-mile overwater limit because their FMS, EFB charts, and weather apps all lacked the appropriate scaling to view the entire segment. The crew eventually discovered they had flown outside the legal limit and recommended that charting providers add \"no fly zone\" overlays and continuous scaling options.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the primary hazard was the inadequate scaling capability and missing database waypoints within the crew's electronic charts and FMS. The limitations of the published digital maps made it impossible to verify regulatory compliance. It is not classified as Aircraft because the aircraft's internal navigation hardware was functioning correctly; the limitation was in the charting software's UI and database. It is not Human Factors because the crew exhausted all available resources and tools, failing only because the published charting tools were inherently inadequate."
+  },
+  {
+    "acn": "1537779",
+    "summary": "A pilot reported a discrepancy where the aircraft's Flight Management System (FMS) loaded specific approach altitudes as \"at or above\" restrictions. However, the published approach plate depicted those exact same waypoints as hard, mandatory altitudes.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This report falls under Chart Or Publication because it involves a direct data conflict between the published paper/EFB approach chart and the coded FMS navigation database. This data mismatch creates confusion regarding which altitude restriction is legally binding during the approach. It is not classified as Software and Automation because the aircraft's FMS did not crash or experience a logic loop; it simply contained improperly coded published data. It is not Procedure because the crew is dealing with contradictory published rules rather than tactically failing to execute a correct procedure."
+  }
+]

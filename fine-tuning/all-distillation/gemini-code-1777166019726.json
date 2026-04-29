@@ -1,0 +1,56 @@
+[
+  {
+    "acn": "1454649",
+    "summary": "A TRACON controller experienced a loss of separation between an arriving and a departing aircraft because an adjacent Center sector failed to climb the departure. The controller cited excessive coordination demands and confusion surrounding the facility's Letter of Agreement (LOA) as primary contributors to the breakdown.",
+    "primary_problem": "manuals",
+    "rationale": "This falls under Manuals because the primary breakdown in separation was directly tied to confusion, non-compliance, and excessive coordination dictated by the facility's written Letter of Agreement (LOA). The text-based directive governing inter-facility handoffs was either misunderstood or structurally inadequate to handle the traffic volume safely. It is not Company Policy because the incident centers on the tactical application of a specific written facility agreement rather than a broad management or HR directive. It is not Human Factors because the ambiguity and complex coordination mandated by the LOA actively induced the controllers' loss of situational awareness."
+  },
+  {
+    "acn": "2086923",
+    "summary": "A flight crew and gate agent struggled to determine the proper stowage procedure for a passenger's lithium-ion mobility scooter batteries. The pilot consulted the Flight Operations Manual (FOM) but found it incredibly confusing, poorly indexed, and scattered across multiple sections, forcing them to call a dangerous goods hotline for clarification.",
+    "primary_problem": "manuals",
+    "rationale": "This is classified as Manuals because the core safety issue was a confusing, poorly indexed Flight Operations Manual (FOM). The fragmented layout of the document prevented the crew from quickly finding accurate text-based procedures for lithium-ion battery stowage. It is not classified as Company Policy because the underlying rule was safe and existed; the failure was the structural design and navigability of the manual's text itself. It is not Chart Or Publication because the FOM is a text-based operational handbook rather than a navigational chart or EFB moving map."
+  },
+  {
+    "acn": "1359419",
+    "summary": "While retracting the landing gear to perform door maintenance, the gear bellcrank rotated backwards and snapped, causing structural damage to the aircraft fuselage. The mechanics noted that the Aircraft Maintenance Manual (AMM) instructed them to ensure the bellcrank was \"overcenter\" but completely failed to provide diagrams or definitions explaining what that looked like.",
+    "primary_problem": "manuals",
+    "rationale": "The Manuals label applies because the hazard was directly caused by an ambiguous, poorly detailed Aircraft Maintenance Manual (AMM) lacking critical diagrams. The absence of a clear textual or visual definition for the \"overcenter\" requirement in the maintenance manual led the mechanics to make an incorrect assessment. It is not classified as Equipment / Tooling because the gear retract mechanism did not spontaneously malfunction; it was damaged due to a maintenance action guided by a flawed manual. It is not Human Factors because the mechanics followed the written instructions to the best of their ability, failing only because the manual itself was deficient."
+  },
+  {
+    "acn": "1698402",
+    "summary": "A blind passenger requested a Braille safety guide and discovered that it was missing a cover and table of contents, making it difficult to find specific emergency information. Additionally, the passenger noted that the manual was written in an outdated Braille format rather than the current Unified English Braille standard.",
+    "primary_problem": "manuals",
+    "rationale": "This report is classified as Manuals because it specifically highlights deficiencies in the formatting and completeness of a published passenger safety guide. This maps directly to the newly added \"Passenger Safety & Accessibility Guides\" repeating issue. It is not Company Policy because the airline's policy to provide the guides is sound; the issue is the physical formatting of the text-based document itself. It is not Chart Or Publication because a Braille safety card is an operational safety manual rather than a navigational chart or aviation database."
+  },
+  {
+    "acn": "1235592",
+    "summary": "Maintenance personnel discovered a popped circuit breaker and burn marks on a landing gear conduit, but an engineering review of the Minimum Equipment List (MEL) revealed absolutely no maintenance or operational procedures for the condition. The aircraft was dispatched but subsequently experienced an auto-brake fault and diverted, highlighting the danger of the MEL's lack of guidance.",
+    "primary_problem": "manuals",
+    "rationale": "This incident fits Manuals because the primary failure was the glaring omission of critical maintenance and operational guidance within the Minimum Equipment List (MEL) and Typical Repair manuals. The lack of documented text-based procedures left maintenance and engineering without a safe framework to ground the aircraft. It is not classified as Company Policy because the failure was specific to the text of the Airbus MEL documentation rather than a deliberate management mandate to ignore safety. It is not Aircraft because, while a wire was burnt, the systemic breakdown was the manual's failure to provide troubleshooting guidance for that specific hardware fault."
+  },
+  {
+    "acn": "1749919",
+    "summary": "A mechanic deferred a damaged cargo compartment air conditioning duct louver using a specific Non-Essential Furnishing (NEF) code. The mechanic later learned that unwritten \"tribal knowledge\" restricted that NEF code to a different louver, prompting a recommendation to clarify the overly broad language in the manual.",
+    "primary_problem": "manuals",
+    "rationale": "This is classified as Manuals because the safety event was caused by overly broad, ambiguous language within the Non-Essential Furnishing (NEF) manual. The text-based document failed to specify which exact parts were eligible for deferral, forcing mechanics to rely on unwritten tribal knowledge. It is not Company Policy because the issue resides in the specific wording of the maintenance document rather than a systemic management scheduling failure. It is not Procedure because the mechanic followed the literal text of the manual perfectly; the manual's text was simply misleading."
+  },
+  {
+    "acn": "1517223",
+    "summary": "During descent, a flight crew noticed that their fuel transfer valves had failed to open automatically, leaving thousands of pounds of fuel trapped in the outer tanks. With no published QRH or ECAM procedure available for this specific failure, the crew successfully relied on their systems knowledge to manually cycle the circuit breakers to force the valves open.",
+    "primary_problem": "manuals",
+    "rationale": "This falls under Manuals because the primary hazard was the complete absence of a published emergency checklist, QRH procedure, or ECAM action for a critical systems failure. The flight manual's deficiency forced the crew to improvise a maintenance procedure during a critical phase of flight to avoid a fuel emergency. It is not Aircraft because, although the valves failed, the reporter's primary safety concern focuses heavily on the lack of documented emergency procedures to handle the hardware fault. It is not Human Factors because the crew reacted flawlessly; their only hurdle was the inadequate flight deck documentation."
+  },
+  {
+    "acn": "1363107",
+    "summary": "An ATC facility experienced a long-standing debate and a specific operational conflict regarding whether VFR aircraft require formal handoffs before entering another facility's airspace. The controller noted that the ambiguity in FAA Order 7110.65 between Chapter 4 and Chapter 5 causes systemic confusion and demanded the manual be explicitly clarified.",
+    "primary_problem": "manuals",
+    "rationale": "The Manuals label is assigned because the root cause of the operational confusion is contradictory and ambiguous text within the FAA Order 7110.65 rulebook. This matches the \"ATC Directives & Letters of Agreement (LOA)\" repeating issue for text-based operational manuals. It is not Company Policy because the conflict stems from the national FAA textual directive itself rather than a local facility management decision. It is not Procedure because the controllers are attempting to follow the rules, but the written rules themselves are inherently contradictory."
+  },
+  {
+    "acn": "1536875",
+    "summary": "A flight crew dispatched on an overwater flight with one engine bleed inoperative, only to realize enroute that their Flight Manual contained absolutely no non-normal procedures for the loss of the remaining bleed source. The crew noted that the MEL was excessively long and the complete lack of documented emergency descent guidance left them with severe safety questions.",
+    "primary_problem": "manuals",
+    "rationale": "This incident is classified as Manuals because the primary hazard was the glaring omission of critical emergency guidance within the aircraft's Flight Manual and an overly complex Minimum Equipment List (MEL). The lack of written text-based procedures for a dual bleed loss left the crew without a safe operational framework. It is not classified as Company Policy because the specific failure point was the missing text in the Boeing/company flight manual rather than a management dispatch pressure tactic. It is not Equipment / Tooling because the dispatch software and aircraft hardware were functioning exactly as deferred; the hazard was purely documentation-based."
+  }
+]

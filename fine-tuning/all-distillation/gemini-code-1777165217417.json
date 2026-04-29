@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1770479",
+    "summary": "During routine ADS-B testing of a grounded helicopter inside a metal hangar, the signals were picked up by a newly installed ATC surveillance radar. This caused the system to mistakenly broadcast the test data into the national airspace, triggering traffic conflict alerts for commercial air carriers.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This is classified as ATC Equipment / Nav Facility / Buildings because the primary issue involves the newly installed ATC surveillance radar unexpectedly injecting maintenance test signals into the live ATC system. It matches the category's focus on ARTCC/TRACON automation and radar display systems causing safety issues. It is not classified as Equipment / Tooling because the mechanic's test equipment functioned correctly; the fault was in the ATC facility's radar reception. It is not Procedure because there was no known protocol violated, as the new radar was installed without notifying operators."
+  },
+  {
+    "acn": "1335729",
+    "summary": "While in cruise flight, a flight crew received a climb clearance but subsequently encountered conflicting traffic at their new altitude due to poor radio conditions and severe communication echoes. The crew had to take evasive action because they were unable to clearly hear or transmit to the ATC facility to resolve the conflict.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "The ATC Equipment / Nav Facility / Buildings classification is appropriate because the root cause was a degraded radio communication facility with chronic echo and frequency simulcast issues. This aligns exactly with the \"Frequency / radio outages\" and communication facility gaps repeating issue. It is not classified as Human Factors because the failure was caused by hardware/infrastructure degradation rather than a pilot or controller's cognitive error or mishearing a clear transmission. It is also not Airspace Structure because the conflict was caused by communication loss rather than inherently flawed airspace design."
+  },
+  {
+    "acn": "1298211",
+    "summary": "A controller reported that the FUSION radar system generated multiple erroneous conflict alerts by continuously tagging an aircraft in conflict with its own beacon code. The controller noted that these ghost targets are a recurring software and hardware issue that distracts from critical tasks.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This report is classified as ATC Equipment / Nav Facility / Buildings because it centers on an ARTCC/TRACON automation failure where the ATC radar software generated false alerts. This explicitly fits the \"Radar and display failures\" and \"phantom primary targets on radar\" repeating issues in the reference guide. It is not classified as Software and Automation because the failure resides within the ATC facility's ground-based radar tracking systems, rather than an aircraft's onboard FMS or EFB software. It is not Human Factors because the controller correctly identified the system error rather than making a cognitive mistake."
+  },
+  {
+    "acn": "1292549",
+    "summary": "A controller was unable to track an IFR aircraft because the local radar equipment failed to pick up the aircraft's transponder, despite other nearby facilities receiving it clearly. This equipment limitation forced the pilot to cancel IFR and created a hazardous \"tunnel vision\" situation for the controller.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This fits ATC Equipment / Nav Facility / Buildings because the core issue is a physical failure of the ATC facility's radar receiver site to detect a valid transponder signal. This matches the \"Radar and display failures\" and \"transmitter/receiver site failures\" criteria. It is not classified as Aircraft because the transponder was functioning correctly and visible to other facilities. It is not Staffing because the issue was broken equipment, not an excessive workload or lack of personnel."
+  },
+  {
+    "acn": "2244237",
+    "summary": "While flying over a restricted area, an aircraft's GPS and transponder failed, and multiple warning lights illuminated. ATC confirmed that military testing was occurring in the restricted area, causing the localized GPS interference.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "Based on the updated reference guide logic, this is classified as ATC Equipment / Nav Facility / Buildings because the event was caused by external GPS jamming and signal interference during military testing rendering the navigation infrastructure unusable. This maps directly to the \"GPS jamming / GNSS outages\" repeating issue. It is not Environment - Non Weather Related because the electromagnetic interference specifically targets navigation facility reception rather than physically interacting with the aircraft (like a bird or drone). It is not Aircraft because the aircraft's internal systems were working perfectly but were starved of external signals."
+  },
+  {
+    "acn": "1612878",
+    "summary": "An air traffic controller attempted to resolve a converging traffic conflict between an IFR and a VFR aircraft but was delayed because the facility's Rapid Deployment Voice Switch (RDVS) communications equipment repeatedly failed. The controller eventually managed to use the system to issue a climb, narrowly avoiding a loss of separation.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This is classified as ATC Equipment / Nav Facility / Buildings because the primary hazard was the malfunction of the ATC facility's internal RDVS communication hardware, preventing critical inter-sector coordination. This maps perfectly to the \"Communication facility gaps\" and \"ATC equipment\" failures detailed in the reference guide. It is not Staffing, because although the controller was busy, the specific point of failure was the physical communication switch rather than an overload of personnel. It is not Procedure because the controller attempted to follow proper coordination rules but was thwarted by broken hardware."
+  },
+  {
+    "acn": "1359117",
+    "summary": "While holding short of a runway, multiple flight crews missed their takeoff clearances because the Tower controller was transmitting on a broken frequency setup, broadcasting on one frequency but only listening on another. The issue was resolved when the aircraft switched to the correct secondary frequency listed at the end of the ATIS.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "The ATC Equipment / Nav Facility / Buildings label applies because the core issue was a malfunction or misconfiguration of the ATC facility's radio transmitter/receiver systems. This directly aligns with the \"Frequency / radio outages\" and \"transmitter/receiver site failures\" repeating issues. It is not classified as Human Factors because the missed clearances were the result of a physical radio equipment failure rather than pilots simply not paying attention. It is not Procedure because the primary hazard was the technical failure of the tower's communication infrastructure, even if a NOTAM existed."
+  },
+  {
+    "acn": "1771218",
+    "summary": "During a visual approach, an aircraft's autopilot pitched the nose down excessively to follow a false, erroneous glide slope signal from the ILS. The First Officer disconnected the autopilot and leveled off after receiving a low altitude alert from Tower.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This incident is classified as ATC Equipment / Nav Facility / Buildings because the root cause was a faulty ILS signal from the ground navigation facility. This is explicitly covered by the \"ILS / glideslope anomalies\" and \"false or unreliable glideslope signals\" repeating issues. It is not classified as Aircraft because the aircraft's autopilot was correctly following the data it received; the error originated from the external navigation facility. It is not Software and Automation because it was a physical signal anomaly rather than an FMS navigation database error."
+  },
+  {
+    "acn": "1602878",
+    "summary": "A local controller observed a false target on the ASDE-X surface radar that improperly tagged a city operations vehicle with the callsign of a departed aircraft. The controller noted that these recurring ghost targets create significant safety risks during low-visibility operations.",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This is classified as ATC Equipment / Nav Facility / Buildings because the primary issue is a software or hardware failure within the ATC facility's ASDE-X surface movement radar. This exactly matches the \"ASDE-X / surface automation errors\" and \"phantom primary targets on radar\" repeating issues in the reference guide. It is not classified as Airport because the hazard is a failure of the ATC tracking equipment, not a physical deficiency of the airport pavement or lighting. It is not Equipment / Tooling because the vehicle itself did not malfunction; the radar system tracking it did."
+  },
+  {
+    "acn": "1948351",
+    "summary": "An air traffic controller suddenly lost all radio communication with a departing aircraft because both the main and standby frequencies went down without warning or notification. The controller had to scramble to find an alternate frequency to contact the aircraft, which had descended close to the Minimum Vectoring Altitude (MVA).",
+    "primary_problem": "atcequipmentnavfacilitybuildings",
+    "rationale": "This report falls under ATC Equipment / Nav Facility / Buildings because the inciting event was a total failure of the facility's primary and standby radio transmitters. This aligns perfectly with the \"Frequency / radio outages\" and \"transmitter/receiver site failures\" criteria. It is not classified as Procedure, despite the lack of notification about the outage, because the immediate safety hazard was the sudden physical loss of the communication equipment. It is not Airspace Structure because the MVA violation was a secondary result of the loss of radio contact rather than a built-in structural flaw."
+  }
+]

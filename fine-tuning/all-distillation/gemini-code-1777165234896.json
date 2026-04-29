@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "2035659",
+    "summary": "A pilot taxied onto a closed taxiway because the airport's published taxi diagrams completely lacked taxiway identifiers. Furthermore, the physical barricades were low to the ground and failed to properly block the entrance.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the primary hazard was the complete omission of taxiway names on the published airport diagrams. This maps directly to the newly added \"Missing Identifiers & Visual References\" repeating issue. It is not classified as Airport because, while the barricades were low, the crew would not have made the turn if the charts provided the necessary identifying information. It is not Human Factors because the pilot was actively trying to navigate but was deprived of the necessary published data."
+  },
+  {
+    "acn": "1416767",
+    "summary": "A flight instructor reported multiple near mid-air collisions caused by transient pilots mistakenly using the unmonitored Unicom frequency published on the approach plates instead of the CTAF. The reporter urgently requested that the charting authorities remove the confusing frequency from the charts to prevent a fatal accident.",
+    "primary_problem": "chartorpublication",
+    "rationale": "The Chart Or Publication label is assigned because the published approach plates display a frequency that misleads pilots into communicating on an unmonitored channel. This creates a severe traffic hazard and aligns with the \"Uncoordinated / Premature Publications\" and confusing chart formatting issues. It is not Human Factors because the pilots are executing standard procedures based on the flawed information explicitly provided on their charts. It is not ATC Equipment / Nav Facility / Buildings because the physical radio frequencies are functioning exactly as tuned; the error is in the publication."
+  },
+  {
+    "acn": "1993416",
+    "summary": "An aircraft cleared for an RNAV approach bypassed a required fix and descended below the minimum IFR altitude while not on a published segment. The controller had to issue a low altitude alert, cancel the approach clearance, and vector the aircraft back around for another attempt.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This incident is classified as Chart Or Publication because the pilot's navigational deviation and early descent are attributed to a confusing or flawed published instrument approach chart and its associated FMS coding. This aligns with the category's inclusion of confusing chart layouts or database errors that induce deviations. It is not classified as Human Factors because the overarching classification assumes the chart's structural design actively misled the crew, rather than the crew simply ignoring a clear procedure. It is not Procedure because the pilot believed they were flying the published procedure correctly based on their defective charts."
+  },
+  {
+    "acn": "1662663",
+    "summary": "A flight crew at a foreign airport taxied on an incorrect route because their primary Jeppesen moving maps and 10-9 charts did not display the newly renamed taxiway identifiers. The critical renaming information was buried on an obscure 10-8A text page, leading the crew to mistakenly believe their 10-9 diagrams were current.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This falls under Chart Or Publication because the charting provider failed to update the primary visual 10-9 taxi diagrams and moving maps, instead burying the critical changes on a secondary text page. This perfectly matches the \"Incomplete Database Updates\" and confusing formatting criteria. It is not classified as Human Factors because the crew diligently verified they had the most recent chart cycle; the layout of the publication itself was deceitful. It is not Airport because the physical taxiways were clearly marked; the discrepancy was entirely within the EFB."
+  },
+  {
+    "acn": "1499623",
+    "summary": "During an RNAV approach, a flight crew noticed that the PAPI lights were physically located on the left side of the runway, contrary to the Jeppesen approach chart which diagrammed them on the right. The crew had to verify their runway alignment with Tower due to the charting discrepancy.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This report is classified as Chart Or Publication because the published approach plate inaccurately depicted the physical location of the runway's visual approach aids. This directly maps to the \"Missing Identifiers & Visual References\" repeating issue. It is not Airport because the physical PAPI lights were functioning correctly and safely installed; the error was exclusively in the charting provider's diagram. It is not Procedure because the crew followed all rules and properly queried ATC upon discovering the published error."
+  },
+  {
+    "acn": "1905067",
+    "summary": "A flight crew experienced significant confusion regarding their route and lowest allowable altitude when issued a \"descend via\" clearance on a newly formatted arrival chart. The pilot noted that the new chart format featured poor descriptions and small fonts, making it extremely difficult to decipher critical restrictions in a high-workload environment.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the primary hazard was the poor formatting, small fonts, and confusing verbiage of the newly published arrival chart. This aligns perfectly with the \"Confusing Layouts & Formatting\" repeating issue, where technically correct charts induce errors through bad design. It is not Human Factors because the confusion was systematically generated by the chart's poor UX/UI design rather than a lack of pilot proficiency. It is not Procedure because the underlying ATC procedure was standard; the published visual representation was the failure point."
+  },
+  {
+    "acn": "1473256",
+    "summary": "A flight crew was instructed to hold in the Lima Pad, but parked in the wrong location because the airport's 10-9 parking chart depicted it incorrectly. The Ground Controller noted this was a recurring issue, and the crew later found that a different chart (the 10-9D Low Vis page) actually showed the correct location.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This incident fits Chart Or Publication because it highlights a direct discrepancy between two different published pages within the same charting application regarding the location of a parking pad. This maps exactly to the \"Incomplete Database Updates\" and internal chart conflicts criteria. It is not Airport because the physical Lima Pad was correctly established on the ramp; the EFB charts simply disagreed on its location. It is not Human Factors because the crew diligently followed the 10-9 chart they were referencing, which happened to contain published errors."
+  },
+  {
+    "acn": "1762128",
+    "summary": "A temporary NOTAM changing an airport's Flight Service Station (FSS) frequency expired, but the new frequency was never permanently updated on the FAA or Jeppesen charts. As a result, pilots are frequently unable to contact FSS to cancel or obtain IFR clearances, creating chronic operational delays.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This is classified as Chart Or Publication because the charting authorities (FAA and Jeppesen) completely failed to update their published charts and databases after a permanent frequency change. This perfectly matches the \"Incomplete Database Updates\" and uncoordinated publication repeating issues. It is not ATC Equipment / Nav Facility / Buildings because the new 122.6 frequency was functioning perfectly; pilots just didn't know about it due to the charting failure. It is not Procedure because pilots were attempting to follow standard clearance protocols but were thwarted by inaccurate publications."
+  },
+  {
+    "acn": "1372759",
+    "summary": "A flight crew planned a full-length departure because their company's performance computer module lacked the necessary database updates for intersection departures in a construction zone. The published dispatch release contained two pages of confusing, contradictory verbiage regarding the lack of data instead of a simple restriction note, leading to confusion when ATC offered an intersection departure.",
+    "primary_problem": "chartorpublication",
+    "rationale": "This report is classified as Chart Or Publication because the primary failures were an outdated performance database module and a confusing, poorly formatted dispatch publication. This aligns directly with both \"Database & Scaling Limitations\" and \"Confusing Layouts & Formatting.\" It is not Company Policy because, although the company provides the software, the specific hazard was the formatting and data absence within the published document and database. It is not Human Factors because the crew actively tried to decipher the complex, poorly written publication before opting for the safest known parameter."
+  },
+  {
+    "acn": "1375591",
+    "summary": "A flight crew missed a required right turn onto Taxiway B because their Jeppesen airport diagram failed to depict that the taxiway branched to the right. The charting omission, combined with the presence of a confusing approach hold sign, forced the crew to stop and request an alternate taxi route from Ground Control.",
+    "primary_problem": "chartorpublication",
+    "rationale": "The Chart Or Publication label applies because the published electronic airport diagram omitted critical geometric details about the taxiway's layout, directly causing the crew to miss their turn. This fits the \"Missing Identifiers & Visual References\" repeating issue. It is not Airport because the physical taxiway and signs were present on the field; the Jeppesen chart simply failed to draw them correctly. It is not Human Factors because the crew thoroughly briefed the route, but the chart they relied on was visually defective."
+  }
+]

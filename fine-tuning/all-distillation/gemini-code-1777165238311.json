@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1684791",
+    "summary": "A reporter noted that certain gates at an airport feature jetbridges that overhang the Operational Safety Zone even when properly stowed. This creates a collision hazard for the Number 1 engine of arriving aircraft.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the primary hazard is the physical design and stowage footprint of ground support equipment (a jetbridge) encroaching on the safety zone. This aligns perfectly with the \"Ground Support & Cabin Equipment (GSE) Failures\" criteria. It is not classified as Airport because the hazard is a piece of movable ground equipment rather than a permanent runway or taxiway infrastructure defect. It is not Company Policy because the issue is the physical tooling design rather than a specific management directive or operational timeline."
+  },
+  {
+    "acn": "1425223",
+    "summary": "A heavy ground power cable hoist broke and crashed to the ground just inches away from an employee immediately after being disconnected from an aircraft. The reporter highlighted the lack of regular safety inspections for this heavy ground equipment.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "The Equipment / Tooling label applies because the safety event involved the catastrophic mechanical failure of a piece of ground support equipment. This maps directly to the criteria covering ground power units and related servicing hardware. It is not classified as Airport because the failure was of a specific tool used for aircraft servicing rather than the airport's pavement or lighting infrastructure. It is not Procedure because the employee was operating the equipment normally when it unpredictably broke, meaning no procedural violation caused the failure."
+  },
+  {
+    "acn": "1323350",
+    "summary": "A baggage handler's hand was caught in a moving belt loader while attempting to retrieve a bag according to new policies. The handler was unable to immediately stop the machine because both the safety sensors and the emergency stop button had been removed from the equipment.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This report is classified as Equipment / Tooling because the severe safety hazard was a direct result of missing safety sensors and broken emergency stop mechanisms on a baggage belt loader. This aligns precisely with the hazard definitions for defective or modified ground support equipment. It is not Human Factors because the employee was following standard loading instructions and was victimized by the deliberately modified, unsafe machinery. It is not Company Policy because the critical point of failure in this specific event was the broken machinery itself rather than the overarching loading policy."
+  },
+  {
+    "acn": "1595895",
+    "summary": "A flight attendant reported that catering personnel consistently load broken service carts without functioning brakes onto the aircraft, creating a severe hazard for both crew and passengers. Despite tagging the carts as defective and filing multiple reports, the broken equipment continues to be cycled into service.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the recurring hazard involves defective non-flight hardware, specifically galley service carts lacking functional brakes. This fits directly into the \"Ground Support & Cabin Equipment (GSE) Failures\" repeating issue newly established for this category. It is not classified as Aircraft because the carts are movable cabin accessories rather than integrated structural or mechanical systems of the airplane. It is not Procedure because the flight attendants are correctly tagging the carts; the primary failure lies in the continued circulation of broken tools."
+  },
+  {
+    "acn": "1417760",
+    "summary": "A dispatcher reported that their primary dispatch software program crashed multiple times per shift over several consecutive days. These repeated crashes severely compromised safety by blocking access to reroute calculations, weather updates, NOTAMs, and ACARS communications with enroute flights.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This incident fits Equipment / Tooling because the primary failure point was the ground-based dispatch software and flight planning computer system. This directly aligns with the \"Dispatch & Flight Planning Software Failures\" criteria added to the reference guide. It is not classified as Software and Automation because that label is primarily reserved for the aircraft's internal FMS or autopilot coding rather than external corporate ground software. It is not ATC Equipment / Nav Facility / Buildings because the failing software belongs to the airline's dispatch tooling, not an FAA or ATC air traffic control facility."
+  },
+  {
+    "acn": "1312509",
+    "summary": "Shortly after takeoff in gusty instrument conditions, a B737's flight director erroneously commanded a 30-degree right bank turn away from the assigned departure course. The pilot monitoring noticed the deviation, instructed the flying pilot to disregard the flight director, and successfully re-established the correct heading.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the inciting event was a malfunctioning piece of aircraft navigation hardware, specifically the flight director generating an erroneous turn command. This matches the \"Aircraft Navigation Equipment Malfunctions\" sub-category where specific instrumentation provides misguided cues. It is not classified as Software and Automation because the narrative treats the flight director as an isolated equipment failure rather than explicitly citing an FMS database or software logic corruption. It is not Human Factors because the pilots successfully identified the equipment's error and corrected the flight path without committing an operational mistake."
+  },
+  {
+    "acn": "1266493",
+    "summary": "A dispatcher was unable to generate accurate fuel burn or critical fuel scenarios because the flight planning software refused to calculate the requested flight level and Mach number for a North Atlantic track crossing. The computer program continuously defaulted to multiple lower altitudes, preventing the dispatcher from releasing an accurate flight plan.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "The Equipment / Tooling label is assigned because the operational bottleneck was caused by a limitation or glitch in the company's ground-based flight planning software tool. This maps perfectly to the \"Dispatch & Flight Planning Software Failures\" definition. It is not Chart Or Publication because the issue involved a dynamic software calculation tool failing to process a specific flight level, rather than a static charting error or published approach plate flaw. It is not Company Policy because the dispatcher was attempting to follow correct procedures but was blocked by inadequate computational tooling."
+  },
+  {
+    "acn": "1306508",
+    "summary": "An aircraft crossed its planned rerelease point without receiving the required updated fuel analysis because the company's dispatch flight planning system had unexpectedly gone offline. Operations Control instructed the crew to continue past the waypoint without the legal calculations until the software system was restored and the numbers could be provided.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This report is classified as Equipment / Tooling because the root cause of the delayed rerelease and potential regulatory violation was the total failure of the dispatch flight planning computer system. The offline software tool left both dispatchers and the flight crew unable to access legally required fuel data. It is not classified as ATC Equipment / Nav Facility / Buildings because the broken system was the airline's proprietary operational software, not a government ATC facility. While continuing past the waypoint touches on Company Policy or Procedure, the inciting primary problem explicitly designated here is the breakdown of the dispatch tool itself."
+  },
+  {
+    "acn": "1487908",
+    "summary": "While flying an assigned STAR, ATC informed a flight crew that they were two miles off course despite the aircraft's FMS indicating they were perfectly on track. Although ATC later confirmed there was GPS jamming in the area, the controller suggested the deviation might have been caused by an equipment malfunction on the aircraft's side.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This is classified as Equipment / Tooling because the deviation was ultimately attributed to an unexplained malfunction of the aircraft's navigation equipment or FMS hardware during a suspected GPS jamming event. This aligns with the \"Aircraft Navigation Equipment Malfunctions\" repeating issue where the specific tooling fails to track correctly. It is not ATC Equipment / Nav Facility / Buildings because the controller explicitly suggested the failure was internal to the aircraft's equipment rather than purely an external facility outage. It is not Human Factors because the crew diligently cross-checked all instruments and followed their available data, meaning no cognitive or handling error occurred."
+  },
+  {
+    "acn": "1522589",
+    "summary": "Because standard deicing equipment was unavailable at an airport, a crew and ground personnel attempted to remove snow from an aircraft using soft rubber squeegees. They then hired a helicopter to hover over the aircraft to blow the snow off the tail, creating a significant safety hazard until ATC intervened and stopped the operation.",
+    "primary_problem": "equipment/tooling",
+    "rationale": "This falls under Equipment / Tooling because the entire hazardous sequence was driven by the lack of proper deicing equipment, leading to the use of highly inappropriate makeshift tools. This directly matches the \"Improvised or Inappropriate Servicing Tools\" sub-category. It is not classified as Weather because, although it was snowing, the critical safety hazard was the dangerous, improvised mechanical method used to remove the snow. It is not Procedure because the crew knowingly invented an unauthorized, makeshift process to compensate for missing equipment rather than accidentally mishandling a standard operation."
+  }
+]

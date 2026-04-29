@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1336239",
+    "summary": "A mechanic deferred a wing light and printed a new maintenance log but became distracted and forgot to sign the Airworthiness Release (AWR). The flight crew assumed the paperwork was complete and departed without a valid AWR.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the primary safety event was the omission of a mandatory signature on an Airworthiness Release. This maps directly to the \"Missing Signatures & Forms\" repeating issue for this category. It is not classified as Procedure because the physical maintenance and checks were executed properly prior to the distraction. It is not Human Factors because, within this taxonomy, specific failures of official aircraft maintenance record-keeping are explicitly routed to this label."
+  },
+  {
+    "acn": "1580864",
+    "summary": "A flight crew noticed a logbook sign-off indicating that pilots had cycled the water service door. The reporter pointed out that this is physically impossible without assistance due to height constraints, suggesting the logbook entry was falsified or improperly credited.",
+    "primary_problem": "logbookentry",
+    "rationale": "This report is classified as Logbook Entry because the safety concern revolves around a potentially falsified or inaccurate maintenance sign-off in the official aircraft log. This aligns with the newly added \"Falsified or Out-of-Sequence Entries\" repeating issue. It is not Company Policy because the hazard is a specific, inaccurate written record rather than a broad management directive. It is not Procedure because the issue is the fraudulent documentation of the task rather than a tactical physical error during the servicing itself."
+  },
+  {
+    "acn": "1686196",
+    "summary": "A Captain made an aircraft maintenance logbook entry for a broken lavatory seat, expecting maintenance to process it sequentially. The Captain later discovered that maintenance had improperly documented an additional deferral for door lights on an out-of-sequence page from a previous calendar day, causing severe dispatch confusion.",
+    "primary_problem": "logbookentry",
+    "rationale": "The Logbook Entry label is appropriate because the primary hazard was the confusing and improper sequential documentation of maintenance actions within the official aircraft logbook. This exactly matches the \"Falsified or Out-of-Sequence Entries\" classification criteria. It is not classified as MEL because the root dispute was the physical page placement of the written entry rather than the legal restrictions of the deferral itself. It is not Procedure because the physical maintenance was not the issue; the administrative record-keeping practices were flawed."
+  },
+  {
+    "acn": "1812224",
+    "summary": "An aircraft owner reviewing their logbooks months after a major engine change discovered several confusing, erroneous, and potentially altered maintenance entries. The owner reported the documentation errors to the maintenance facility for immediate corrective action.",
+    "primary_problem": "logbookentry",
+    "rationale": "This fits the Logbook Entry classification because the sole focus of the report is the discovery of erroneous and altered historical records within the aircraft's maintenance logbooks. This aligns completely with the \"Falsified or Out-of-Sequence Entries\" and general documentation flaws repeating issues. It is not Manuals because the flawed documents are the specific historical logs for that individual airframe, rather than a general mechanic's reference manual. It is not Procedure because the reporter explicitly states they do not attribute a subsequent mechanical failure to the physical maintenance work, leaving only the paperwork in question."
+  },
+  {
+    "acn": "1748237",
+    "summary": "After experiencing a total loss of brakes and steering, a pilot safely exited the runway into the grass and shut down the aircraft. After maintenance secured the aircraft, the pilot flew the plane to a repair facility but realized they had failed to obtain a required Special Flight Permit.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the regulatory violation was the complete failure to obtain and document a Special Flight Permit prior to repositioning a damaged aircraft. This explicitly maps to the \"Missing Signatures & Forms\" repeating issue regarding ferry permits. It is not classified as Aircraft because the mechanical failure had already concluded safely; the subsequent hazard was an administrative flight without proper documentation. It is not Procedure because the pilot simply forgot the administrative permit rather than making a tactical physical error during the flight."
+  },
+  {
+    "acn": "1756021",
+    "summary": "A mechanic investigating a Mast Moment Exceedance cleared the fault code and refused to complete the required physical inspection, attributing the alert to moisture. The mechanic then falsified the maintenance logbook by signing off that the required inspection had been completed, allowing the aircraft to fly multiple times.",
+    "primary_problem": "logbookentry",
+    "rationale": "This report falls under Logbook Entry because a critical safety violation was the intentional falsification of an official maintenance logbook sign-off to bypass required work. This directly aligns with the \"Falsified or Out-of-Sequence Entries\" repeating issue. It is not Procedure because the mechanic's deliberate fraudulent sign-off supersedes the physical skipped steps as the primary systemic failure. It is not Aircraft because the exceedance was a known, recorded event on the ground that was administratively covered up rather than an unprompted in-flight failure."
+  },
+  {
+    "acn": "1684513",
+    "summary": "After an emergency exit overhead liner fell during a flight, the crew discovered upon landing that maintenance had temporarily secured it with tape. The pilot noted that there was absolutely no logbook write-up or Non-Essential Equipment Furnishings (NEF) deferral documented for this makeshift repair prior to the flight.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the primary safety breakdown was the complete lack of required logbook documentation or NEF paperwork for a physical maintenance repair. This perfectly matches the \"Undocumented Maintenance\" classification criteria. It is not Equipment / Tooling because the tape itself held; the hazard was the crew's blindness to the repair due to missing records. It is not Procedure because the primary violation highlighted by the pilot was the administrative failure to write up the NEF deferment prior to dispatch."
+  },
+  {
+    "acn": "1766718",
+    "summary": "An unqualified contract mechanic replaced a Secondary Power Control Unit (SPCU) on an aircraft but completely failed to document the installation in the aircraft's logbook. An investigation later forced the station to correct the historical logbook records.",
+    "primary_problem": "logbookentry",
+    "rationale": "The Logbook Entry label applies because the primary regulatory violation was an entirely undocumented major component replacement in the aircraft's official maintenance log. This directly matches the \"Undocumented Maintenance\" repeating issue. It is not Procedure because the specific hazard being rectified by the station was the missing written record of the SPCU installation. It is not Company Policy because the omission was a specific mechanic's documentation failure rather than a broad management directive suppressing maintenance records."
+  },
+  {
+    "acn": "1691207",
+    "summary": "While completing an IDG oil level check, a mechanic improperly signed off both their own task and the required secondary verification block for the fan cowling latches.",
+    "primary_problem": "logbookentry",
+    "rationale": "This incident is classified as Logbook Entry because the safety concern revolves around a single mechanic's ability to improperly sign off a secondary verification block in the maintenance records. This aligns with the improper sign-off repeating issues where documentation accountability fails. It is not Procedure because the physical check of the latches is secondary to the administrative flaw allowing one person to sign for two. It is not Human Factors because this taxonomy explicitly routes specific failures of official aircraft maintenance record-keeping and signatures to this label."
+  },
+  {
+    "acn": "1535638",
+    "summary": "A flight crew conducting a walk-around noted loose, vibrating acoustic panels on an engine, which a mechanic then physically broke off to secure. It took the crew three verbal requests to force the mechanic to actually document this physical action in the maintenance release document.",
+    "primary_problem": "logbookentry",
+    "rationale": "This is classified as Logbook Entry because the core conflict was a mechanic's persistent refusal to document physical maintenance work in the aircraft's official release records. This directly aligns with the \"Undocumented Maintenance\" repeating issue. It is not Procedure because the mechanic performed the physical repair safely when prompted; the failure was entirely in the administrative record-keeping. It is not MEL because the dispute was about logging a new physical action rather than interpreting the legal restrictions of the existing Carry Forward deferral."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1872703",
+    "summary": "The flight crew experienced an uncommanded early descent while the aircraft was on autopilot and cleared for an approach[cite: 1]. The Captain immediately disconnected the automation and initiated a climb, receiving a minor GPWS warning during the recovery[cite: 1, 3]. The incident was attributed to an automation failure and documented for maintenance[cite: 2, 4].",
+    "primary_problem": "aircraft",
+    "rationale": "This incident is classified as aircraft because the root cause was a mechanical or systems failure within the flight control and automation systems[cite: 1, 2]. Specifically, the autopilot initiated an uncommanded descent before intercepting the glide slope, which aligns with the \"Flight Control & Automation Malfunctions\" repeating issue for this category[cite: 1]. It is not classified as Procedure because there is no indication that the crew improperly configured the FMS or ignored SOPs; rather, the system acted without being prompted[cite: 1]. Furthermore, it is distinct from Software and Automation as the narrative points to a general system malfunction requiring a physical maintenance write-up rather than a specific database or software programming error[cite: 2]."
+  },
+  {
+    "acn": "1814136",
+    "summary": "While relocating an airplane, the pilot experienced a loss of engine power and backfiring at 6,500 feet MSL[cite: 6, 11]. Despite attempting to troubleshoot by switching tanks and adjusting the mixture, the engine continued to run rough, prompting the pilot to execute a safe off-airport landing in a field[cite: 6]. A mechanic was dispatched to inspect the aircraft, which had been inactive for several years prior to its recent annual inspection[cite: 9, 10].",
+    "primary_problem": "aircraft",
+    "rationale": "The classification of aircraft is appropriate because the primary problem was a total loss of power and rough running engine, fitting squarely within the \"Engine & Powerplant Failures\" subset[cite: 6]. The physical mechanical failure of the engine during cruise flight forced the emergency landing[cite: 6]. It is not classified as Incorrect / Not Installed Part because, although the aircraft had been inactive, there is no direct evidence provided of a specific botched maintenance action or wrong part installed prior to the flight[cite: 10]. It is strictly an aircraft hardware failure in the moment, differentiating it from Human Factors where pilot mismanagement would be the primary cause[cite: 6, 11]."
+  },
+  {
+    "acn": "2111776",
+    "summary": "While enroute at 40,000 feet, the aircraft lost both stabilizer channels and the associated trim[cite: 12]. The crew diverted and hand-flew the final 1,500 feet of the approach, requiring both pilots to apply 30-40 pounds of pressure on the yoke to maintain a normal glide path due to the aircraft being stuck in a nose-down trim configuration[cite: 12, 14, 15, 16].",
+    "primary_problem": "aircraft",
+    "rationale": "This event perfectly aligns with the aircraft category due to the mechanical failure of the stabilizer trim channels, which is explicitly listed under \"Flight Control & Automation Malfunctions\"[cite: 12]. The physical malfunction forced the crew to manually overpower the aircraft's control surfaces[cite: 15, 16]. It is not classified as Procedure or Human Factors because the crew successfully followed the checklist and worked together to mitigate an unavoidable hardware failure[cite: 12, 17]. The root cause was an internal mechanical systems failure, not an external Environment factor or a Company Policy issue[cite: 12]."
+  },
+  {
+    "acn": "1912278",
+    "summary": "During cruise flight, the crew received a steady Stab Out of Trim annunciator light and subsequently verified the trim was not operating[cite: 18, 31]. After isolating the fault to the A autopilot system, they lost RVSM capability but safely continued their flight at a lower altitude[cite: 20, 23]. The crew noted a previous recurring write-up for the same issue that had been blanket-deferred via MEL rather than properly isolated[cite: 21, 22, 27].",
+    "primary_problem": "aircraft",
+    "rationale": "The aircraft classification is assigned because the inciting incident was a hardware malfunction, specifically the A autopilot faulting and a stabilizer trim system failure[cite: 23, 31]. This falls under the \"Flight Control & Automation Malfunctions\" criteria for the aircraft label[cite: 18]. While there are strong elements of MEL and maintenance tracking issues in the aircraft's history, the primary problem for this specific flight crew's event was the active mechanical failure of the autopilot and trim system[cite: 18, 27]. It is distinct from MEL because the crew was reacting to an in-flight avionics failure, rather than refusing the aircraft on the ground due to an inappropriate paperwork deferral[cite: 18, 19]."
+  },
+  {
+    "acn": "1979148",
+    "summary": "While configuring on short final, the crew received a Flap Asymmetry EICAS message and a LE Slat Disagree Light[cite: 37]. The Captain discontinued the approach, the crew requested priority handling, and they executed a successful ILS landing on their second attempt after running the appropriate checklists[cite: 37].",
+    "primary_problem": "aircraft",
+    "rationale": "This report is classified as aircraft because the root cause was a clear mechanical systems failure, matching the \"flap/slat asymmetries\" condition explicitly listed under the \"Flight Control & Automation Malfunctions\" category[cite: 37]. The crew was forced to abort their landing due to the physical inability of the aircraft's flight control surfaces to configure properly[cite: 37]. It is not a Procedure issue because the crew followed proper protocols by executing a missed approach and running the checklist upon identifying the malfunction[cite: 37]. Furthermore, it is not a Software and Automation issue because flap and slat disagree warnings generally indicate a physical hardware misalignment rather than a pure software logic error[cite: 37]."
+  },
+  {
+    "acn": "2006760",
+    "summary": "Approximately 450 miles from their destination, the crew received a GREEN RSVR LO LEVEL ECAM message and observed the green hydraulic system pressure cycling down to zero[cite: 38, 40]. The crew prepared for a gravity gear extension, held to configure the aircraft, and executed a safe landing with priority handling[cite: 45, 46, 48]. After landing, fire crews reported smoke coming from the #2 engine, prompting the crew to shut down the engines and have the aircraft towed to the ramp[cite: 51, 52, 55].",
+    "primary_problem": "aircraft",
+    "rationale": "The aircraft label applies here due to a cascade of physical mechanical failures, beginning with a hydraulic leak and culminating in an engine smoke event[cite: 38, 40, 51]. These events map directly to the \"Engine & Powerplant Failures\" and \"Landing Gear & Brake Issues\" (via hydraulic loss) detailed in the reference guide[cite: 40, 51]. It is not classified as Manuals despite the crew noting missing ECAM procedural steps, because the missing text was secondary to the critical hydraulic failure that initiated the emergency[cite: 38, 39]. It is entirely distinct from Human Factors as the crew successfully managed a high-workload, complex hardware failure without committing handling errors[cite: 45, 46, 47]."
+  },
+  {
+    "acn": "2193751",
+    "summary": "During the takeoff roll at 80 knots, the aircraft rejected takeoff, and the Captain later informed a flight attendant that her cabin door handle had flown up[cite: 58, 59, 61]. Despite the flight attendants re-securing the door and requesting maintenance due to safety concerns, the Captain insisted on attempting a second takeoff and asked the flight attendant to physically hold the handle[cite: 63, 65, 69, 71]. The crew refused to fly out of safety concerns, resulting in the aircraft eventually being taken out of service by maintenance[cite: 72, 73].",
+    "primary_problem": "aircraft",
+    "rationale": "This is classified as aircraft because the initiating event was a mechanical failure of the cabin door handle disengaging during the takeoff roll[cite: 61, 63]. This fits within the physical hardware and system failures encompassing the aircraft's physical structure[cite: 61]. While the narrative heavily features elements of Company Policy and Procedure regarding the Captain's controversial decision to avoid maintenance and the resulting crew conflict, the assigned aircraft label strictly reflects the underlying physical fault that triggered the aborted takeoff[cite: 61, 71, 75]. It is not Staffing or Human Factors as the root hazard was a defective door mechanism, not a lack of personnel or a pilot handling error[cite: 61, 73]."
+  },
+  {
+    "acn": "1969884",
+    "summary": "A pilot broadcasted that she had lost all engine power and was preparing to land in a nearby field[cite: 78]. The local controller immediately cleared pattern traffic and began coordinating an emergency response[cite: 79, 80]. The pilot subsequently restarted the engine, returned to the field, and landed without incident[cite: 80, 82].",
+    "primary_problem": "aircraft",
+    "rationale": "The aircraft label is assigned because the primary problem was a total loss of engine power, which is explicitly listed as a key indicator under \"Engine & Powerplant Failures\" in the reference guide[cite: 78]. The incident revolved entirely around the aircraft's mechanical inability to sustain thrust[cite: 78, 80]. It is not classified as Environment - Non Weather Related because there is no mention of external factors like bird strikes or fuel starvation causing the failure[cite: 78, 83]. It is also not a Procedure event, as both the pilot and ATC executed their emergency protocols effectively to resolve the hardware emergency[cite: 79, 81]."
+  },
+  {
+    "acn": "2213653",
+    "summary": "During two separate visual approaches, flight crews received erroneous EGPWS terrain alerts at very low altitudes (30-50 feet) while fully configured and stabilized on the glidepath[cite: 83, 85]. In the first narrative, the crew executed an escape maneuver, while in the second, the crew landed normally without incident because they had the runway in sight and determined the alert was a mistake[cite: 84, 85].",
+    "primary_problem": "aircraft",
+    "rationale": "Based on the updated reference guide logic, this is classified as aircraft because the erroneous EGPWS alerts are attributed to an unverified hardware sensor malfunction or radar altimeter fault rather than a known software programming error[cite: 83, 85]. Both crews verified they were on the correct glidepath with no obstacles, isolating the issue to the aircraft's internal warning systems[cite: 83, 85]. It is not classified as Software and Automation because there is no evidence of a systemic database error or logic flaw[cite: 83, 85]. It is also not Human Factors because the crews were flying stabilized approaches and were not responsible for triggering the false mechanical warning[cite: 83, 85]."
+  },
+  {
+    "acn": "2010728",
+    "summary": "During the initial climb after a normal takeoff roll, a flight instructor and student experienced continuous engine RPM surges from 2300 down to 1000[cite: 90, 91]. The instructor immediately took control, declared an emergency, and executed a 180-degree turn to land safely on a parallel runway[cite: 92, 93, 94]. Post-flight maintenance discovered a leak in the fuel line[cite: 98].",
+    "primary_problem": "aircraft",
+    "rationale": "This incident is classified as aircraft because the root cause was a physical fuel line leak that led to engine power loss and RPM surges, directly aligning with the \"Engine & Powerplant Failures\" category[cite: 91, 98]. The mechanical failure of the engine hardware forced an emergency landing[cite: 94, 98]. It is not classified as Incorrect / Not Installed Part because the report does not indicate the leak was caused by a botched maintenance installation prior to the flight[cite: 87, 98]. Furthermore, it is not Human Factors because the instructor executed a flawless transfer of controls and emergency return, proving the issue was entirely mechanical[cite: 92, 95]."
+  }
+]

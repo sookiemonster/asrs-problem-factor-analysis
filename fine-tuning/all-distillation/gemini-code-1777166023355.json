@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1335039",
+    "summary": "A TRACON and Center controller experienced confusion regarding the proper handoff altitude for southbound departures. The official Letter of Agreement (LOA) mandated 8,000 feet, but a supervisor found an unofficial laminated sheet indicating the altitude had been changed to 9,000 feet.",
+    "primary_problem": "manuals",
+    "rationale": "This is classified as Manuals because the core issue is contradictory and poorly documented ATC operational directives, specifically an unofficial laminated sheet conflicting with the official ERIDS and LOA. This maps directly to the \"ATC Directives & Letters of Agreement (LOA)\" repeating issue for text-based operational manuals. It is not classified as Company Policy because the specific hazard is the conflicting written documentation itself, rather than a broad management mandate. It is not Procedure because the controllers were attempting to follow the rules, but the written rules were inherently contradictory."
+  },
+  {
+    "acn": "1695129",
+    "summary": "A Boeing 777 flight crew troubleshooting a fuel transfer issue consulted the Electronic Checklist (ECL) for a Fuel Imbalance. The crew realized that strictly following the ECL's logic tree would have dangerously commanded them to turn off all fuel pumps to an operating engine, contradicting the physical Flight Manual.",
+    "primary_problem": "manuals",
+    "rationale": "This incident falls under Manuals because the primary hazard was a flawed Electronic Checklist (ECL) and Flight Manual that directed the crew to configure the aircraft without fuel pumps. This directly aligns with the \"Flight Operations Manuals (FOM/QRH) Deficiencies\" sub-category. It is not classified as Software and Automation because the issue was the text-based logic of the checklist steps, rather than a spontaneous crash of the aircraft's internal flight management computer. It is not Human Factors because the crew correctly analyzed the written checklist to the letter and realized the checklist itself was the hazard."
+  },
+  {
+    "acn": "1469521",
+    "summary": "A mechanic working on a CL650 requested clarification on whether a specific 35% sensor accessed from the tail constituted a Required Inspection Item (RII). The General Maintenance Manual (GMM) only listed \"access panels\" as RII, creating significant ambiguity regarding the sensor's status.",
+    "primary_problem": "manuals",
+    "rationale": "This report is classified as Manuals because it highlights ambiguity within the General Maintenance Manual (GMM) regarding what qualifies as a Required Inspection Item (RII). The lack of a clear, text-based definition for access panels creates a compliance and safety hazard. It is not Company Policy because the issue resides in the specific wording of the maintenance document rather than a systemic management scheduling failure. It is not Procedure because the mechanic is seeking clarification on an ambiguous text rather than having committed a tactical execution error."
+  },
+  {
+    "acn": "1548464",
+    "summary": "During a departure in possible windshear conditions, a flight crew exceeded the maximum tire ground speed. The crew noted that they had strictly followed the recommended takeoff procedures published in their manual, which inadvertently induced the overspeed.",
+    "primary_problem": "manuals",
+    "rationale": "This fits the Manuals classification because the flight crew exceeded the maximum tire ground speed by explicitly following the published, recommended manual procedure for windshear conditions. This aligns with the newly updated \"Performance & Minimums Documentation\" criteria where a documented procedure inherently causes an exceedance. It is not Procedure because the pilot successfully executed the published procedure; the published steps themselves were flawed. It is not Weather because, although windshear was a threat, the specific exceedance was induced by the manual's prescribed airspeed guidance."
+  },
+  {
+    "acn": "1272567",
+    "summary": "A flight crew reviewing their pre-departure paperwork discovered that the text-based takeoff minimums and departure instructions for Chicago Midway (MDW) were entirely different between their LIDO charts and Jeppesen charts. The LIDO text also completely omitted a critical speed restriction that was present on the Jeppesen version.",
+    "primary_problem": "manuals",
+    "rationale": "The Manuals label is assigned because the primary hazard involves a contradiction in the text-based takeoff minimums and departure text between LIDO and Jeppesen documentation. This matches the \"Performance & Minimums Documentation\" repeating issue. It is not classified as Chart Or Publication because the issue lies in the text-based operational minimums and textual departure restrictions rather than a graphical error on a moving map. It is not Procedure because the crew is dealing with contradictory published rules rather than tactically failing to execute a single correct procedure."
+  },
+  {
+    "acn": "1765743",
+    "summary": "During a runway change on descent, a flight crew noticed that their FMS/CDU approach identifiers did not match their updated EFB Jeppesen charts. The crew realized the aircraft's internal FMC database was out of date, forcing them to request radar vectors to a visual approach.",
+    "primary_problem": "manuals",
+    "rationale": "This is classified as Manuals because the root cause of the navigational discrepancy was an out-of-date FMC database, pointing to a failure in the documented administrative database update cycle. This aligns with the \"Database Update Procedures\" addition for administrative manual flaws. It is not Chart Or Publication because the EFB chart was actually correct; the failure was the administrative procedure to update the aircraft's internal FMC database. It is not Human Factors because the crew properly verified the discrepancy and safely mitigated the outdated data via radar vectors."
+  },
+  {
+    "acn": "1336846",
+    "summary": "A flight attendant repeatedly found heavy-duty lavatory seals installed on the Portable Breathing Equipment (PBE), which would require tools to cut off during a fire emergency. The reporter suspects maintenance is utilizing the wrong seals based on flawed maintenance directives to prevent moisture intrusion.",
+    "primary_problem": "manuals",
+    "rationale": "This falls under Manuals because maintenance personnel are repeatedly installing incorrect, heavy-duty seals on emergency equipment, indicating a flaw in the Illustrated Parts Catalog (IPC) or maintenance documentation. This maps to the \"Maintenance & Parts Catalog Errors\" repeating issue. It is not classified as Equipment / Tooling because the seals themselves are not defective; they are simply the wrong part being directed for installation by faulty maintenance paperwork. It is not Company Policy because it is a specific maintenance documentation error rather than an overarching management directive."
+  },
+  {
+    "acn": "1297618",
+    "summary": "During the drafting of a new Letter of Agreement (LOA) between a TRACON and ARTCC, a critical paragraph granting TRACON control for descents was inadvertently deleted. Controllers operating without knowledge of the omission continued the practice, resulting in dozens of operational deviations.",
+    "primary_problem": "manuals",
+    "rationale": "This incident is classified as Manuals because a critical paragraph governing descent control was inadvertently deleted during the drafting of a new Letter of Agreement (LOA) between TRACON and ARTCC. This maps exactly to the \"ATC Directives & Letters of Agreement (LOA)\" repeating issue. It is not Company Policy because the error was a typographical or drafting omission in a specific document rather than a deliberate management decision. It is not Procedure because the controllers were operating under the assumption the old rule still existed due to a lack of proper textual briefing."
+  },
+  {
+    "acn": "1350335",
+    "summary": "A TRACON controller had to intervene and break noise abatement procedures to prevent a loss of separation between a slow-climbing Airbus and a trailing Boeing 737. The controller noted that the facility's Standard Operating Procedure (SOP) legally allows Tower to launch successive departures using visual separation, which is structurally unsafe for that specific Airbus model.",
+    "primary_problem": "manuals",
+    "rationale": "This fits Manuals because the facility's Standard Operating Procedure (SOP) and LOA text legally allow a practice that inherently creates a loss of separation hazard. The textual directive itself is the root cause of the operational compression. It is not Company Policy because the hazard stems from a specific ATC facility manual's written rule rather than a broad HR or management pressure tactic. It is not Human Factors because the controllers applied the SOP correctly; the SOP was structurally unsafe for that aircraft type."
+  },
+  {
+    "acn": "1642922",
+    "summary": "A pilot discovered that the Boeing 737 QRH contained inaccurate performance tables for unreliable airspeed, which had been noted in a company bulletin seven months prior but never physically corrected in the manual. The reporter warned that relying on an easily forgotten bulletin instead of updating the actual QRH text poses a severe risk of losing an airframe.",
+    "primary_problem": "manuals",
+    "rationale": "This report is classified as Manuals because a known error in the Boeing 737 QRH performance tables was left uncorrected in the physical manual for over six months. The reliance on an easily forgotten bulletin instead of updating the actual QRH text creates a severe hazard. It is not Company Policy because the issue is specifically about the maintenance and updating of a flight deck manual rather than a scheduling or dispatch pressure. It is not Human Factors because a crew would be acting on factually incorrect printed text rather than making an unprompted cognitive mistake."
+  }
+]

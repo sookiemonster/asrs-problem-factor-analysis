@@ -1,0 +1,62 @@
+[
+  {
+    "acn": "1855021",
+    "summary": "While taxiing, a pilot noticed that an airport sign depicting a turn onto another taxiway remained incorrectly illustrated as a 135-degree turn instead of the actual 45-degree turn. The pilot expressed frustration that airport personnel had not corrected the known physical error despite multiple previous reports.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the core issue is the physical presence of incorrect signage on the airport surface. This maps directly to the \"Confusing or absent signage\" repeating issue detailed in the reference guide. It is not classified as Chart Or Publication because the error is painted on a physical sign on the field, not within a navigation database or EFB chart. It is not Human Factors because the pilot correctly identified the hazard rather than committing an operational error."
+  },
+  {
+    "acn": "2157855",
+    "summary": "A flight crew arriving at an airport was informed by approach control that the main runway was closed for painting, despite no NOTAM being issued for the preplanned closure. The controller advised that it was the airport's policy not to issue NOTAMs for this type of closure, forcing the crew to quickly reconfigure for a different runway.",
+    "primary_problem": "airport",
+    "rationale": "Based on the updated reference guide logic, this is classified as Airport because the root cause is the local airport management's explicit policy to not issue NOTAMs for preplanned surface closures. This administrative failure at the airport level creates an ongoing operational hazard for inbound crews. It is not classified as Chart Or Publication because this wasn't a simple charting omission, but a deliberate localized operational practice by the airport authority. It is not Procedure because the crew managed the last-minute change successfully without violating SOPs."
+  },
+  {
+    "acn": "2114131",
+    "summary": "While taxiing at an unfamiliar, unlit uncontrolled airport at night, a pilot turned onto the runway too early because the taxiway lights did not extend all the way to the threshold and a corner runway light was burnt out. The aircraft's propeller struck the damaged light, causing damage to both the light and the propeller.",
+    "primary_problem": "airport",
+    "rationale": "The Airport label is assigned because the primary hazards were nonexistent ramp lighting, incomplete taxiway lighting, and a burnt-out runway light on the physical surface. This aligns precisely with the \"Poor airport lighting\" repeating issue in the reference material. It is not Human Factors because the pilot was actively exercising diligence, and the root cause was the physical deficiency of the airport infrastructure that removed critical visual cues. It is not Aircraft because there was no mechanical failure prior to the collision with the physical obstruction."
+  },
+  {
+    "acn": "2162686",
+    "summary": "A flight crew departing a busy non-towered airport had to abort their takeoff plans and exit the runway when a twin-engine aircraft pulled out onto an intersecting runway without making any CTAF radio announcements. The crew had to taxi back and re-sequence for departure after the non-communicating traffic took off.",
+    "primary_problem": "airport",
+    "rationale": "This incident is classified as Airport because it involves an aircraft operating unsafely without communication at a non-towered field, creating a surface runway conflict. This maps perfectly to the \"Non-towered airport hazards\" repeating issue, which explicitly covers conflicts from non-communicating traffic at uncontrolled airports. It is not Procedure because the non-communicating aircraft is treated as an environmental hazard typical of this specific airport layout rather than a documented SOP violation by the reporter. It is not Airspace Structure because the conflict occurred on the physical airport surface runways rather than in the airborne traffic pattern."
+  },
+  {
+    "acn": "1834217",
+    "summary": "After a gate change, a flight crew found that the taxi lane paint ended prematurely, providing virtually no guidance to safely park the aircraft at the assigned gate. The pilot noted that the lack of painted lines forced the aircraft dangerously close to other parked planes, presenting a severe collision hazard at night.",
+    "primary_problem": "airport",
+    "rationale": "This report falls under Airport because the inciting problem is the physical absence of painted taxi lane guidance on the ramp surface. This aligns directly with the \"Faded or missing runway/taxiway markings\" repeating issue. It is not Equipment / Tooling because the hazard is a lack of infrastructure (paint), not a broken piece of ground equipment like a tug or tow bar. It is not Human Factors because the risk is created by the airport's layout deficiencies rather than pilot misjudgment or distraction."
+  },
+  {
+    "acn": "2141025",
+    "summary": "A pilot reported that a portion of a runway and associated taxiways had been permanently closed for two years, yet the airport diagram and chart supplement had never been updated to reflect the physical changes. While NOTAMs were published, the pilot argued that relying on NOTAMs for years instead of updating the permanent publications is an unacceptable safety risk.",
+    "primary_problem": "airport",
+    "rationale": "Based on the updated reference guide logic, this is classified as Airport because the airport management completed long-term physical modifications but neglected to coordinate the update of the physical diagrams over multiple years. This creates a persistent, hazardous mismatch between the physical airport configuration and its long-term documentation. It is not Chart Or Publication because the charting authorities can only update what the airport officially submits, making the root failure an administrative gap at the local airport level. It is not Procedure because the pilot is documenting a systemic infrastructure hazard, not a specific rule violation during a flight."
+  },
+  {
+    "acn": "2194311",
+    "summary": "While waiting for a gate, a flight crew observed other aircraft starting engines and taxiing directly adjacent to active construction areas on the ramp. The resulting jet blast blew massive amounts of dust, debris, and plastic coverings around, endangering construction workers and creating an unsafe ground environment.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the hazard stems from construction activities occurring dangerously close to active taxi operations, creating a massive FOD and jet blast hazard on the ramp. This perfectly matches the \"Construction zones without adequate notice\" and \"FOD and surface condition\" repeating issues. It is not Environment - Non Weather Related because the debris and workers are tied to physical airport infrastructure construction rather than a random external event like a drone or bird. It is not Equipment / Tooling because the primary danger is the airport's uncontained construction materials, not a failure of a specific ground vehicle."
+  },
+  {
+    "acn": "1861265",
+    "summary": "A flight crew was cleared to taxi via a specific taxiway but inadvertently turned onto a different taxiway because the surface signage was not clearly visible. After ATC queried the crew and corrected their route, the crew recommended that the airport make the physical sign for the missed taxiway more prominent.",
+    "primary_problem": "airport",
+    "rationale": "The Airport label applies because the primary safety hazard was poor visibility of physical taxiway signage on the airport surface. This fits exactly with the \"Confusing or absent signage\" repeating issue listed in the reference guide. It is not Human Factors because both pilots were actively looking for the sign, and the error was induced entirely by the physical inadequacy of the airport's infrastructure. It is not Procedure because the crew did not intentionally deviate from their clearance; they were led astray by the physical environment."
+  },
+  {
+    "acn": "1977707",
+    "summary": "A flight crew missed their designated runway entry taxiway during an intersection departure because the physical signage was darker than expected and two taxiways were located in very close proximity. The crew had to stop, cancel their takeoff clearance, and receive a reroute to the opposite side of the airport.",
+    "primary_problem": "airport",
+    "rationale": "This is classified as Airport because the root cause of the taxi deviation was poorly illuminated, dark taxiway signage combined with a confusing physical layout. This aligns tightly with both the \"Poor airport lighting\" and \"Confusing or absent signage\" repeating issues. It is not Chart Or Publication because the issue lay entirely with the physical illumination of the signs on the pavement, not a charting or navigation database error. It is not Human Factors because the crew was actively running their checklist and the visual deficiency of the airport infrastructure caused the oversight."
+  },
+  {
+    "acn": "1875597",
+    "summary": "A pilot reported that the ramp at an airport had absolutely no lighting, making it impossible to see parking centerlines and rendering external walkarounds extremely dangerous due to tripping hazards. Ramp personnel indicated they had been unsuccessfully begging the airport for lighting improvements for an extended period.",
+    "primary_problem": "airport",
+    "rationale": "This report is classified as Airport because the core issue is the complete physical absence of lighting infrastructure on the ramp. This is explicitly covered under the \"Poor airport lighting\" repeating issue in the categorization framework. It is not Company Policy because the lack of lighting is a physical deficiency managed by the airport authority, rather than an airline management directive or pressure tactic. It is not Equipment / Tooling because the hazard is a permanent lack of infrastructure, not a broken mobile light cart or ground support tool."
+  }
+]
